@@ -1,0 +1,69 @@
+JPARC_PS_FB_BOARD rev58 / BARE-BOARD RFQ AND CAM NOTES / 2026-09-17
+
+REPLACES ALL rev57 MANUFACTURING FILES AND THE OLD 16-HOLE FILL/CAP REQUEST.
+STATUS: RFQ / CAM REVIEW. ETHERNET IMPEDANCE RELEASE REMAINS PENDING.
+Do not fabricate until the actual standard stackup and impedance geometry are accepted.
+Quantity: 5 bare boards for PCBWay quote; 2 boards will be assembled separately.
+For P-ban comparison, quote both 3 and 5 bare boards, with assembly of 2 separately itemized.
+Size: 145.05 x 68.40 mm. 8 copper layers. Finished thickness: 1.20 mm +/-10%.
+FR-4 Tg170 preferred or manufacturer equivalent, ENIG, green solder mask, white silk both sides.
+Nominal 1 oz / 35 um copper per layer. State finished copper thickness for impedance calculation.
+Individual routed boards, no blind/buried vias, no edge plating, no V-score.
+100% electrical open/short test against supplied IPC-D-356.
+
+STACKUP: STANDARD MANUFACTURER BUILDUP, NOT A CUSTOM STACKUP
+Use your standard 8-layer, 1.2 mm stackup consistent with the copper requirement.
+Keep top-to-bottom Gerber order:
+L1 F.Cu signals/components; L2 In1.Cu GND; L3 In2.Cu signals; L4 In3.Cu GND;
+L5 In4.Cu signals; L6 In5.Cu power; L7 In6.Cu GND; L8 B.Cu signals/components.
+The dielectric thicknesses and Er still present in KiCad are provisional design values only.
+They are NOT manufacturing requirements. Earlier individual dielectric-thickness instructions
+are withdrawn. Supply actual material, pressed layer thicknesses, copper and mask data.
+If the standard buildup cannot meet the overall requirements, report before processing.
+
+U3 GROUND / SOLDER MASK: NO RESIN FILL, NO COPPER CAP, NO PLANARIZATION
+Old U3 pad-25 sixteen 0.30 mm holes are deleted.
+New U3 pad 25: solid 2.5908 mm square top copper land and FOUR 0.20 mm finished plated holes.
+Via copper land: 0.45 mm. Via locations are listed in U3_tented_ground_vias.csv.
+Tent all four holes on BOTH sides with solder mask. No resin hole filling or copper capping.
+F.Mask explicitly leaves four 0.50 x 0.50 mm solder-mask islands over the holes.
+Maintain these mask islands and their nominal 0.15 mm hole-edge coverage; DO NOT open them,
+gang them into a full exposed-pad opening, or auto-generate a full U3 center-pad opening.
+The matching B.Mask has no openings over these holes. Use the supplied mask Gerbers.
+Confirm the proposed mask process can retain these islands and tent the 0.20 mm holes.
+All other vias remain tented on both sides. Component insertion holes stay open.
+U3_detail_rev58.png illustrates the actual copper, mask openings and paste geometry.
+
+ETHERNET IMPEDANCE
+100 ohm differential +/-10%, with coupon measurement, for:
+TD_P/TD_N: U3.21/20 to J5.3/2; RD_P/RD_N: U3.23/22 to J5.9/8.
+Both pairs are on F.Cu over In1.Cu GND.
+Current width 0.200 mm; nominal edge spacing about 0.250 mm (RD straight: 0.252 mm).
+These dimensions are NOT verified as 100 ohms. Calculate using the actual standard stackup,
+finished copper, mask and neighboring copper. Send proposed width/spacing for approval.
+Do not silently modify routing, layer order or plane keepouts. Release revised copper if needed.
+
+DESIGN / DRILL
+Minimum trace/space: 0.127/0.127 mm. Minimum finished through hole: 0.15 mm.
+Minimum design annular ring: 0.125 mm. Hole-to-copper 0.25 mm; hole-to-hole 0.30 mm.
+Ordinary routing vias: 729 x 0.40/0.15, 980 x 0.45/0.20, 32 x 0.60/0.30 mm (land/hole).
+U3 has 4 additional 0.45/0.20 mm plated ground holes, encoded as footprint pads.
+Total drilled holes: 1798 PTH and 10 NPTH.
+Use normal drill/plating compensation while preserving the required annular rings.
+
+INTENTIONAL FEATURES
+J8.66 and J8.68 are intentionally shorted locally on B.Cu.
+U1 K2/PF6 and K3/PF7 are NC. GND-SD/AGND are merged into GND.
+R30/R31 remain fitted 0-ohm parts with both terminals on GND.
+Earth at the RJ45 remains separate. Preserve the RJ45 cable-side copper-pour keepout,
+the L1 top copper/via keepouts and oscillator keepouts.
+
+DATA
+13 bare-board Gerbers: 8 copper, 2 mask, 2 silk, 1 Edge_Cuts.
+Separate PTH/NPTH Excellon files, drill maps, IPC-D-356, job metadata and checksums.
+All outputs use the same absolute origin. CAD Y increases down; Gerber Y is negative.
+Gerber outline and Excellon drill geometry are authoritative. Do not mirror or shift layers.
+Assembly paste Gerbers are in the CAD package's assembly folder, not this bare-board ZIP.
+U3 paste consists of four independent 0.925 mm square windows (50.99% copper-land coverage).
+No paste opening overlaps a U3 hole. Supply these new paste files to the assembler.
+No components or purchase quantities changed; retain rev55 BOM and purchase list.

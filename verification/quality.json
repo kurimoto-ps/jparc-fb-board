@@ -1,0 +1,95 @@
+{
+  "non_octilinear_tracks": [
+    {
+      "uuid": "ffd14061-f334-466c-b088-728a802bfbe1",
+      "net": "/STM32H7 Sheet/BOOT0",
+      "layer": "In5.Cu",
+      "start": [
+        127.55,
+        91.6
+      ],
+      "end": [
+        128.6,
+        90.4
+      ],
+      "width": 0.127,
+      "length": 1.594521871910187
+    }
+  ],
+  "non_octilinear_by_net": {
+    "/STM32H7 Sheet/BOOT0": 1
+  },
+  "weak_contacts": [],
+  "duplicate_tracks": [],
+  "signal_orphan_components": [],
+  "weak_terminal_contacts": [],
+  "bends_over_45": [
+    {
+      "kind": "bend",
+      "at": [
+        "/STM32H7 Sheet/BOOT0",
+        "In5.Cu",
+        128.6,
+        90.4
+      ],
+      "angle": 48.81407483429017,
+      "segments": [
+        "1bf6a79b-eb77-4d00-a42a-98eca297b027",
+        "ffd14061-f334-466c-b088-728a802bfbe1"
+      ]
+    },
+    {
+      "kind": "bend",
+      "at": [
+        "/STM32H7 Sheet/BOOT0",
+        "In5.Cu",
+        127.55,
+        91.6
+      ],
+      "angle": 48.81407483429015,
+      "segments": [
+        "2d740b1f-78fa-41e4-9d17-4018feace98a",
+        "ffd14061-f334-466c-b088-728a802bfbe1"
+      ]
+    }
+  ],
+  "signal_dead_ends_outside_terminals": [],
+  "signal_branches_outside_terminals": [
+    {
+      "net": "/Interface Sheet/ACC_TRIG",
+      "layer": "F.Cu",
+      "at": [
+        109.6,
+        79.75
+      ],
+      "degree": 3
+    },
+    {
+      "net": "/MAX10 Sheet/XNCONFIG_FPGA",
+      "layer": "F.Cu",
+      "at": [
+        57.3,
+        107.75
+      ],
+      "degree": 3
+    },
+    {
+      "net": "/MAX10 Sheet/XNCONFIG_FPGA",
+      "layer": "In2.Cu",
+      "at": [
+        86.8,
+        87.9
+      ],
+      "degree": 3
+    },
+    {
+      "net": "/STM32H7 Sheet/PA0",
+      "layer": "In4.Cu",
+      "at": [
+        115.275,
+        70.75
+      ],
+      "degree": 3
+    }
+  ]
+}

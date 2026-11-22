@@ -1,0 +1,5672 @@
+{
+  "native_version": "10.0.6",
+  "pcb_sha256": "fd0fe0b308129f996334521491b503cc992c6ea8339c25741045cfa32198a29c",
+  "all_nets": [
+    {
+      "net": "+1.2V",
+      "connected": true,
+      "pads": [
+        "C55.1",
+        "C52.1",
+        "C103.1",
+        "C61.1",
+        "R112.1",
+        "C53.1",
+        "U4.3",
+        "U4.8",
+        "U4.9",
+        "U4.10"
+      ]
+    },
+    {
+      "net": "+1.2V_VCC",
+      "connected": true,
+      "pads": [
+        "C55.3",
+        "U5.J7",
+        "U5.K11",
+        "U5.K13",
+        "U5.L10",
+        "U5.L11",
+        "U5.L12",
+        "U5.M11",
+        "U5.M12",
+        "U5.M13",
+        "U5.N10",
+        "U5.N12",
+        "TPV1.1",
+        "C59.1",
+        "C58.1",
+        "C60.1",
+        "C56.1",
+        "C57.1"
+      ]
+    },
+    {
+      "net": "+1.2V_VCCD_PLL",
+      "connected": true,
+      "pads": [
+        "U5.G7",
+        "U5.G16",
+        "U5.T7",
+        "U5.U16",
+        "C61.3",
+        "C68.1",
+        "C75.1",
+        "C70.1",
+        "C72.1"
+      ]
+    },
+    {
+      "net": "+2.5V",
+      "connected": true,
+      "pads": [
+        "C84.1",
+        "C88.1",
+        "TPV2.1",
+        "U7.5"
+      ]
+    },
+    {
+      "net": "+2.5V_VCCA",
+      "connected": true,
+      "pads": [
+        "C88.3",
+        "U5.H6",
+        "U5.H7",
+        "U5.H8",
+        "U5.H15",
+        "U5.R8",
+        "U5.T15",
+        "C101.1",
+        "C98.1",
+        "C99.1",
+        "C100.1"
+      ]
+    },
+    {
+      "net": "+3.3V",
+      "connected": true,
+      "pads": [
+        "J4.3",
+        "R98.1",
+        "X2.4",
+        "RN1.6",
+        "RN1.7",
+        "RN1.8",
+        "C89.1",
+        "U6.3",
+        "U10.5",
+        "C85.1",
+        "R114.2",
+        "C86.1",
+        "C96.1",
+        "C97.1",
+        "R110.2",
+        "U13.4",
+        "C91.1",
+        "R97.1",
+        "U5.F9",
+        "U5.F11",
+        "U5.F12",
+        "U5.F14",
+        "U5.G10",
+        "U5.G11",
+        "U5.G12",
+        "U5.G13",
+        "U5.G14",
+        "U5.H16",
+        "U5.J17",
+        "U5.K7",
+        "U5.K16",
+        "U5.K17",
+        "U5.L6",
+        "U5.L7",
+        "U5.L16",
+        "U5.M6",
+        "U5.M17",
+        "U5.N6",
+        "U5.N7",
+        "U5.N16",
+        "U5.N17",
+        "U5.P7",
+        "U5.P16",
+        "U5.R6",
+        "U5.R16",
+        "U5.R17",
+        "U5.T9",
+        "U5.T10",
+        "U5.T11",
+        "U5.T12",
+        "U5.T13",
+        "U5.T17",
+        "U5.U8",
+        "U5.U9",
+        "U5.U11",
+        "U5.U12",
+        "U5.U14",
+        "C102.1",
+        "U3.9",
+        "J6.4",
+        "C90.1",
+        "R113.1",
+        "C95.1",
+        "C93.1",
+        "C105.1",
+        "U1.E6",
+        "U1.E9",
+        "U1.E11",
+        "U1.F5",
+        "U1.F17",
+        "U1.G5",
+        "U1.G13",
+        "U1.G17",
+        "U1.H5",
+        "U1.H13",
+        "U1.J13",
+        "U1.K5",
+        "U1.K13",
+        "U1.L5",
+        "U1.L13",
+        "U1.M5",
+        "U1.M13",
+        "U1.N7",
+        "U1.N8",
+        "U1.N10",
+        "U1.N11",
+        "U1.N12",
+        "U1.P17",
+        "C6.1",
+        "C87.1",
+        "U2.A7",
+        "U2.B2",
+        "U2.B7",
+        "U2.C9",
+        "U2.D9",
+        "U2.E1",
+        "U2.F9",
+        "U2.L1",
+        "U2.L7",
+        "U2.M9",
+        "U2.N9",
+        "U2.P2",
+        "U2.P7",
+        "U2.R7",
+        "RN2.1",
+        "RN2.2",
+        "RN2.3",
+        "RN2.4",
+        "U9.5",
+        "U7.1",
+        "U7.3",
+        "U12.5",
+        "C94.1",
+        "R94.1",
+        "C104.1",
+        "U4.13",
+        "U4.14",
+        "R129.2",
+        "C92.1",
+        "R123.2",
+        "R115.1",
+        "C54.1",
+        "R124.2",
+        "R116.1",
+        "C82.1",
+        "R96.1",
+        "R13.1",
+        "C36.1",
+        "C47.1",
+        "C30.1",
+        "C33.1",
+        "C16.1",
+        "C21.1",
+        "C62.1",
+        "C73.1",
+        "C41.1",
+        "J8.1",
+        "J8.2",
+        "J8.3",
+        "J8.4",
+        "C18.1",
+        "C29.1",
+        "C23.1",
+        "C7.1",
+        "C12.1",
+        "C63.1",
+        "C32.1",
+        "C38.1",
+        "C40.1",
+        "C65.1",
+        "C35.1",
+        "R14.2",
+        "C13.1",
+        "C66.1",
+        "C71.1",
+        "C78.1",
+        "J10.1",
+        "J10.2",
+        "J10.3",
+        "J10.4",
+        "C81.1",
+        "C69.1",
+        "C74.1",
+        "C67.1",
+        "C25.1",
+        "L4.1",
+        "J7.1",
+        "J7.2",
+        "J7.3",
+        "J7.4",
+        "C39.1",
+        "C37.1",
+        "J9.1",
+        "J9.2",
+        "J9.3",
+        "J9.4",
+        "C31.1",
+        "L3.1",
+        "R58.1",
+        "C27.1",
+        "R102.1",
+        "C24.1",
+        "C64.1",
+        "C34.1",
+        "C79.1",
+        "C42.1",
+        "L2.2",
+        "C76.1",
+        "C19.1",
+        "C77.1",
+        "C20.1",
+        "C80.1"
+      ]
+    },
+    {
+      "net": "+3.3V_A",
+      "connected": true,
+      "pads": [
+        "U1.L1",
+        "R70.1",
+        "C9.1",
+        "C11.1",
+        "L2.1"
+      ]
+    },
+    {
+      "net": "+3.3V_Fil",
+      "connected": true,
+      "pads": [
+        "J5.4",
+        "J5.7",
+        "U3.1",
+        "U3.19",
+        "C51.1",
+        "C49.1",
+        "C48.1",
+        "L4.2",
+        "C50.1",
+        "R106.1",
+        "R109.1",
+        "R107.1",
+        "R108.1"
+      ]
+    },
+    {
+      "net": "+3.3V_REF",
+      "connected": true,
+      "pads": [
+        "C28.1",
+        "C26.1",
+        "U1.M1",
+        "R70.2"
+      ]
+    },
+    {
+      "net": "/Ethernet Sheet/LED1",
+      "connected": true,
+      "pads": [
+        "J5.11",
+        "U3.3",
+        "R93.2"
+      ]
+    },
+    {
+      "net": "/Ethernet Sheet/LED2",
+      "connected": true,
+      "pads": [
+        "J5.13",
+        "U3.2",
+        "R101.2"
+      ]
+    },
+    {
+      "net": "/Ethernet Sheet/RD_N",
+      "connected": true,
+      "pads": [
+        "J5.8",
+        "U3.22",
+        "R107.2"
+      ]
+    },
+    {
+      "net": "/Ethernet Sheet/RD_P",
+      "connected": true,
+      "pads": [
+        "J5.9",
+        "U3.23",
+        "R106.2"
+      ]
+    },
+    {
+      "net": "/Ethernet Sheet/TD_N",
+      "connected": true,
+      "pads": [
+        "J5.2",
+        "U3.20",
+        "R109.2"
+      ]
+    },
+    {
+      "net": "/Ethernet Sheet/TD_P",
+      "connected": true,
+      "pads": [
+        "J5.3",
+        "U3.21",
+        "R108.2"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/ACC_12MHZ",
+      "connected": true,
+      "pads": [
+        "TP1.1",
+        "U5.M9",
+        "J7.75"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/ACC_TRIG",
+      "connected": true,
+      "pads": [
+        "TP3.1",
+        "U5.A8",
+        "U1.R17",
+        "J7.79"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA0",
+      "connected": true,
+      "pads": [
+        "U5.C4",
+        "J7.18"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA1",
+      "connected": true,
+      "pads": [
+        "U5.C7",
+        "J7.20"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA10",
+      "connected": true,
+      "pads": [
+        "U5.K2",
+        "J7.38"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA11",
+      "connected": true,
+      "pads": [
+        "U5.A3",
+        "J7.40"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA12",
+      "connected": true,
+      "pads": [
+        "U5.F5",
+        "J7.42"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA13",
+      "connected": true,
+      "pads": [
+        "U5.L1",
+        "J7.44"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA14",
+      "connected": true,
+      "pads": [
+        "U5.L2",
+        "J7.46"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA15",
+      "connected": true,
+      "pads": [
+        "U5.C3",
+        "J7.48"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA16",
+      "connected": true,
+      "pads": [
+        "U5.A2",
+        "J7.50"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA17",
+      "connected": true,
+      "pads": [
+        "U5.B2",
+        "J7.52"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA18",
+      "connected": true,
+      "pads": [
+        "U5.D3",
+        "J7.54"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA19",
+      "connected": true,
+      "pads": [
+        "U5.K6",
+        "J7.56"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA2",
+      "connected": true,
+      "pads": [
+        "U5.A6",
+        "J7.22"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA20",
+      "connected": true,
+      "pads": [
+        "U5.C2",
+        "J7.58"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA21",
+      "connected": true,
+      "pads": [
+        "U5.E3",
+        "J7.60"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA22",
+      "connected": true,
+      "pads": [
+        "U5.B1",
+        "J7.62"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA23",
+      "connected": true,
+      "pads": [
+        "U5.D2",
+        "J7.64"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA24",
+      "connected": true,
+      "pads": [
+        "U5.C1",
+        "J7.66"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA3",
+      "connected": true,
+      "pads": [
+        "U5.F1",
+        "J7.24"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA4",
+      "connected": true,
+      "pads": [
+        "U5.A5",
+        "J7.26"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA5",
+      "connected": true,
+      "pads": [
+        "U5.F3",
+        "J7.28"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA6",
+      "connected": true,
+      "pads": [
+        "U5.J1",
+        "J7.30"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA7",
+      "connected": true,
+      "pads": [
+        "U5.A4",
+        "J7.32"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA8",
+      "connected": true,
+      "pads": [
+        "U5.J3",
+        "J7.34"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DA9",
+      "connected": true,
+      "pads": [
+        "U5.K1",
+        "J7.36"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB0",
+      "connected": true,
+      "pads": [
+        "U5.D1",
+        "J7.17"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB1",
+      "connected": true,
+      "pads": [
+        "U5.A11",
+        "J7.19"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB10",
+      "connected": true,
+      "pads": [
+        "U5.A9",
+        "J7.37"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB11",
+      "connected": true,
+      "pads": [
+        "U5.E10",
+        "J7.39"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB12",
+      "connected": true,
+      "pads": [
+        "U5.C9",
+        "J7.41"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB13",
+      "connected": true,
+      "pads": [
+        "U5.B8",
+        "J7.43"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB14",
+      "connected": true,
+      "pads": [
+        "U5.E9",
+        "J7.45"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB15",
+      "connected": true,
+      "pads": [
+        "U5.C8",
+        "J7.47"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB16",
+      "connected": true,
+      "pads": [
+        "U5.K5",
+        "J7.49"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB17",
+      "connected": true,
+      "pads": [
+        "U5.B7",
+        "J7.51"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB18",
+      "connected": true,
+      "pads": [
+        "U5.D10",
+        "J7.53"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB19",
+      "connected": true,
+      "pads": [
+        "U5.D9",
+        "J7.55"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB2",
+      "connected": true,
+      "pads": [
+        "U5.E1",
+        "J7.21"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB20",
+      "connected": true,
+      "pads": [
+        "U5.D7",
+        "J7.57"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB21",
+      "connected": true,
+      "pads": [
+        "U5.C6",
+        "J7.59"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB22",
+      "connected": true,
+      "pads": [
+        "U5.D6",
+        "J7.61"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB23",
+      "connected": true,
+      "pads": [
+        "U5.B5",
+        "J7.63"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB24",
+      "connected": true,
+      "pads": [
+        "U5.E6",
+        "J7.65"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB3",
+      "connected": true,
+      "pads": [
+        "U5.B11",
+        "J7.23"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB4",
+      "connected": true,
+      "pads": [
+        "U5.F2",
+        "J7.25"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB5",
+      "connected": true,
+      "pads": [
+        "U5.A10",
+        "J7.27"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB6",
+      "connected": true,
+      "pads": [
+        "U5.H4",
+        "J7.29"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB7",
+      "connected": true,
+      "pads": [
+        "U5.B10",
+        "J7.31"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB8",
+      "connected": true,
+      "pads": [
+        "U5.J4",
+        "J7.33"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DB9",
+      "connected": true,
+      "pads": [
+        "U5.C10",
+        "J7.35"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC0",
+      "connected": true,
+      "pads": [
+        "U5.U20",
+        "J10.67"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC1",
+      "connected": true,
+      "pads": [
+        "U5.U21",
+        "J10.69"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC10",
+      "connected": true,
+      "pads": [
+        "U5.AA21",
+        "J10.87"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC11",
+      "connected": true,
+      "pads": [
+        "U5.AA22",
+        "J10.89"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC12",
+      "connected": true,
+      "pads": [
+        "U5.AA16",
+        "J10.91"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC13",
+      "connected": true,
+      "pads": [
+        "U5.AB21",
+        "J10.93"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC14",
+      "connected": true,
+      "pads": [
+        "U5.AB18",
+        "J10.95"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC15",
+      "connected": true,
+      "pads": [
+        "U5.AB17",
+        "J10.97"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC16",
+      "connected": true,
+      "pads": [
+        "U5.AB16",
+        "J10.99"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC17",
+      "connected": true,
+      "pads": [
+        "U5.U2",
+        "J9.68"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC18",
+      "connected": true,
+      "pads": [
+        "U5.U1",
+        "J9.70"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC19",
+      "connected": true,
+      "pads": [
+        "U5.AA8",
+        "J9.72"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC2",
+      "connected": true,
+      "pads": [
+        "U5.V16",
+        "J10.71"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC3",
+      "connected": true,
+      "pads": [
+        "U5.V21",
+        "J10.73"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC4",
+      "connected": true,
+      "pads": [
+        "U5.W15",
+        "J10.75"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC5",
+      "connected": true,
+      "pads": [
+        "U5.W18",
+        "J10.77"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC6",
+      "connected": true,
+      "pads": [
+        "U5.W20",
+        "J10.79"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC7",
+      "connected": true,
+      "pads": [
+        "U5.Y19",
+        "J10.81"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC8",
+      "connected": true,
+      "pads": [
+        "U5.Y21",
+        "J10.83"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DC9",
+      "connected": true,
+      "pads": [
+        "U5.AA20",
+        "J10.85"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD0",
+      "connected": true,
+      "pads": [
+        "U5.T22",
+        "J10.68"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD1",
+      "connected": true,
+      "pads": [
+        "U5.U18",
+        "J10.70"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD10",
+      "connected": true,
+      "pads": [
+        "U5.AA3",
+        "J10.88"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD11",
+      "connected": true,
+      "pads": [
+        "U5.AA1",
+        "J10.90"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD12",
+      "connected": true,
+      "pads": [
+        "U5.AA5",
+        "J10.92"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD13",
+      "connected": true,
+      "pads": [
+        "U5.AA6",
+        "J10.94"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD14",
+      "connected": true,
+      "pads": [
+        "U5.AB2",
+        "J10.96"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD15",
+      "connected": true,
+      "pads": [
+        "U5.AB4",
+        "J10.98"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD16",
+      "connected": true,
+      "pads": [
+        "U5.AB6",
+        "J10.100"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD17",
+      "connected": true,
+      "pads": [
+        "U5.V4",
+        "J9.74"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD18",
+      "connected": true,
+      "pads": [
+        "U5.W7",
+        "J9.76"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD19",
+      "connected": true,
+      "pads": [
+        "U5.V9",
+        "J9.78"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD2",
+      "connected": true,
+      "pads": [
+        "U5.U22",
+        "J10.72"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD3",
+      "connected": true,
+      "pads": [
+        "U5.V20",
+        "J10.74"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD4",
+      "connected": true,
+      "pads": [
+        "U5.V22",
+        "J10.76"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD5",
+      "connected": true,
+      "pads": [
+        "U5.W17",
+        "J10.78"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD6",
+      "connected": true,
+      "pads": [
+        "U5.W19",
+        "J10.80"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD7",
+      "connected": true,
+      "pads": [
+        "U5.Y16",
+        "J10.82"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD8",
+      "connected": true,
+      "pads": [
+        "U5.Y20",
+        "J10.84"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DD9",
+      "connected": true,
+      "pads": [
+        "U5.Y1",
+        "J10.86"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE0",
+      "connected": true,
+      "pads": [
+        "U5.T1",
+        "J9.67"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE1",
+      "connected": true,
+      "pads": [
+        "U5.Y8",
+        "J9.69"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE10",
+      "connected": true,
+      "pads": [
+        "U5.Y4",
+        "J9.87"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE11",
+      "connected": true,
+      "pads": [
+        "U5.AA2",
+        "J9.89"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE12",
+      "connected": true,
+      "pads": [
+        "U5.AA7",
+        "J9.91"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE13",
+      "connected": true,
+      "pads": [
+        "U5.AB3",
+        "J9.93"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE14",
+      "connected": true,
+      "pads": [
+        "U5.AB5",
+        "J9.95"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE15",
+      "connected": true,
+      "pads": [
+        "U5.AB7",
+        "J9.97"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE16",
+      "connected": true,
+      "pads": [
+        "U5.AB8",
+        "J9.99"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE17",
+      "connected": true,
+      "pads": [
+        "U5.W3",
+        "J9.80"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE18",
+      "connected": true,
+      "pads": [
+        "U5.R9",
+        "J9.82"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE19",
+      "connected": true,
+      "pads": [
+        "U5.Y3",
+        "J9.84"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE2",
+      "connected": true,
+      "pads": [
+        "U5.V8",
+        "J9.71"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE3",
+      "connected": true,
+      "pads": [
+        "U5.V5",
+        "J9.73"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE4",
+      "connected": true,
+      "pads": [
+        "U5.V1",
+        "J9.75"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE5",
+      "connected": true,
+      "pads": [
+        "U5.W6",
+        "J9.77"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE6",
+      "connected": true,
+      "pads": [
+        "U5.W4",
+        "J9.79"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE7",
+      "connected": true,
+      "pads": [
+        "U5.Y7",
+        "J9.81"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE8",
+      "connected": true,
+      "pads": [
+        "U5.Y5",
+        "J9.83"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DE9",
+      "connected": true,
+      "pads": [
+        "U5.Y2",
+        "J9.85"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF0",
+      "connected": true,
+      "pads": [
+        "U5.E22",
+        "J10.17"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF1",
+      "connected": true,
+      "pads": [
+        "U5.F20",
+        "J10.19"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF10",
+      "connected": true,
+      "pads": [
+        "U5.M18",
+        "J10.37"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF11",
+      "connected": true,
+      "pads": [
+        "U5.M20",
+        "J10.39"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF12",
+      "connected": true,
+      "pads": [
+        "U5.M21",
+        "J10.41"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF13",
+      "connected": true,
+      "pads": [
+        "U5.M22",
+        "J10.43"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF14",
+      "connected": true,
+      "pads": [
+        "U5.N19",
+        "J10.45"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF15",
+      "connected": true,
+      "pads": [
+        "U5.N20",
+        "J10.47"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF16",
+      "connected": true,
+      "pads": [
+        "U5.N21",
+        "J10.49"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF17",
+      "connected": true,
+      "pads": [
+        "U5.P20",
+        "J10.51"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF18",
+      "connected": true,
+      "pads": [
+        "U5.V14",
+        "J10.53"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF19",
+      "connected": true,
+      "pads": [
+        "U5.P22",
+        "J10.55"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF2",
+      "connected": true,
+      "pads": [
+        "U5.G19",
+        "J10.21"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF20",
+      "connected": true,
+      "pads": [
+        "U5.R22",
+        "J10.57"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF21",
+      "connected": true,
+      "pads": [
+        "U5.T19",
+        "J10.59"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF22",
+      "connected": true,
+      "pads": [
+        "U5.T20",
+        "J10.61"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF23",
+      "connected": true,
+      "pads": [
+        "U5.T21",
+        "J10.63"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF24",
+      "connected": true,
+      "pads": [
+        "U5.U17",
+        "J10.65"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF3",
+      "connected": true,
+      "pads": [
+        "U5.G20",
+        "J10.23"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF4",
+      "connected": true,
+      "pads": [
+        "U5.G22",
+        "J10.25"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF5",
+      "connected": true,
+      "pads": [
+        "U5.P13",
+        "J10.27"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF6",
+      "connected": true,
+      "pads": [
+        "U5.H21",
+        "J10.29"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF7",
+      "connected": true,
+      "pads": [
+        "U5.R13",
+        "J10.31"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF8",
+      "connected": true,
+      "pads": [
+        "U5.L18",
+        "J10.33"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DF9",
+      "connected": true,
+      "pads": [
+        "U5.L20",
+        "J10.35"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG0",
+      "connected": true,
+      "pads": [
+        "U5.E19",
+        "J10.18"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG1",
+      "connected": true,
+      "pads": [
+        "U5.F18",
+        "J10.20"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG10",
+      "connected": true,
+      "pads": [
+        "U5.J22",
+        "J10.38"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG11",
+      "connected": true,
+      "pads": [
+        "U5.AB15",
+        "J10.40"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG12",
+      "connected": true,
+      "pads": [
+        "U5.L19",
+        "J10.42"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG13",
+      "connected": true,
+      "pads": [
+        "U5.V13",
+        "J10.44"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG14",
+      "connected": true,
+      "pads": [
+        "U5.L22",
+        "J10.46"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG15",
+      "connected": true,
+      "pads": [
+        "U5.N18",
+        "J10.48"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG16",
+      "connected": true,
+      "pads": [
+        "U5.AB14",
+        "J10.50"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG17",
+      "connected": true,
+      "pads": [
+        "U5.N22",
+        "J10.52"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG18",
+      "connected": true,
+      "pads": [
+        "U5.P18",
+        "J10.54"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG19",
+      "connected": true,
+      "pads": [
+        "U5.P19",
+        "J10.56"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG2",
+      "connected": true,
+      "pads": [
+        "U5.E21",
+        "J10.22"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG20",
+      "connected": true,
+      "pads": [
+        "U5.P21",
+        "J10.58"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG21",
+      "connected": true,
+      "pads": [
+        "U5.R18",
+        "J10.60"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG22",
+      "connected": true,
+      "pads": [
+        "U5.R20",
+        "J10.62"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG23",
+      "connected": true,
+      "pads": [
+        "U5.T18",
+        "J10.64"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG24",
+      "connected": true,
+      "pads": [
+        "U5.AB13",
+        "J10.66"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG3",
+      "connected": true,
+      "pads": [
+        "U5.F19",
+        "J10.24"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG4",
+      "connected": true,
+      "pads": [
+        "U5.G17",
+        "J10.26"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG5",
+      "connected": true,
+      "pads": [
+        "U5.F21",
+        "J10.28"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG6",
+      "connected": true,
+      "pads": [
+        "U5.F22",
+        "J10.30"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG7",
+      "connected": true,
+      "pads": [
+        "U5.K15",
+        "J10.32"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG8",
+      "connected": true,
+      "pads": [
+        "U5.H22",
+        "J10.34"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DG9",
+      "connected": true,
+      "pads": [
+        "U5.AB10",
+        "J10.36"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ0",
+      "connected": true,
+      "pads": [
+        "U5.G4",
+        "J9.18"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ1",
+      "connected": true,
+      "pads": [
+        "U5.G3",
+        "J9.20"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ10",
+      "connected": true,
+      "pads": [
+        "U5.W9",
+        "J9.38"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ11",
+      "connected": true,
+      "pads": [
+        "U5.N8",
+        "J9.40"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ12",
+      "connected": true,
+      "pads": [
+        "U5.AB9",
+        "J9.42"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ13",
+      "connected": true,
+      "pads": [
+        "U5.AB11",
+        "J9.44"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ14",
+      "connected": true,
+      "pads": [
+        "U5.M1",
+        "J9.46"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ15",
+      "connected": true,
+      "pads": [
+        "U5.AB12",
+        "J9.48"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ16",
+      "connected": true,
+      "pads": [
+        "U5.W8",
+        "J9.50"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ17",
+      "connected": true,
+      "pads": [
+        "U5.V11",
+        "J9.52"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ18",
+      "connected": true,
+      "pads": [
+        "U5.P1",
+        "J9.54"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ19",
+      "connected": true,
+      "pads": [
+        "U5.K14",
+        "J9.56"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ2",
+      "connected": true,
+      "pads": [
+        "U5.AA10",
+        "J9.22"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ20",
+      "connected": true,
+      "pads": [
+        "U5.R2",
+        "J9.58"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ21",
+      "connected": true,
+      "pads": [
+        "U5.R1",
+        "J9.60"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ22",
+      "connected": true,
+      "pads": [
+        "U5.AA15",
+        "J9.62"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ23",
+      "connected": true,
+      "pads": [
+        "U5.T2",
+        "J9.64"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ24",
+      "connected": true,
+      "pads": [
+        "U5.AA14",
+        "J9.66"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ3",
+      "connected": true,
+      "pads": [
+        "U5.H3",
+        "J9.24"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ4",
+      "connected": true,
+      "pads": [
+        "U5.G1",
+        "J9.26"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ5",
+      "connected": true,
+      "pads": [
+        "U5.M3",
+        "J9.28"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ6",
+      "connected": true,
+      "pads": [
+        "U5.H1",
+        "J9.30"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ7",
+      "connected": true,
+      "pads": [
+        "U5.L8",
+        "J9.32"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ8",
+      "connected": true,
+      "pads": [
+        "U5.N3",
+        "J9.34"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/DJ9",
+      "connected": true,
+      "pads": [
+        "U5.N1",
+        "J9.36"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI0",
+      "connected": true,
+      "pads": [
+        "U5.A13",
+        "J8.18"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI1",
+      "connected": true,
+      "pads": [
+        "U5.T3",
+        "J8.20"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI10",
+      "connected": true,
+      "pads": [
+        "U5.A17",
+        "J8.38"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI11",
+      "connected": true,
+      "pads": [
+        "U5.H14",
+        "J8.40"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI2",
+      "connected": true,
+      "pads": [
+        "U5.A14",
+        "J8.22"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI3",
+      "connected": true,
+      "pads": [
+        "U5.U6",
+        "J8.24"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI4",
+      "connected": true,
+      "pads": [
+        "U5.B14",
+        "J8.26"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI5",
+      "connected": true,
+      "pads": [
+        "U5.W5",
+        "J8.28"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI6",
+      "connected": true,
+      "pads": [
+        "U5.A15",
+        "J8.30"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI7",
+      "connected": true,
+      "pads": [
+        "U5.D14",
+        "J8.32"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI8",
+      "connected": true,
+      "pads": [
+        "U5.B15",
+        "J8.34"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPI9",
+      "connected": true,
+      "pads": [
+        "U5.D15",
+        "J8.36"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO0",
+      "connected": true,
+      "pads": [
+        "U1.D3",
+        "J8.17"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO1",
+      "connected": true,
+      "pads": [
+        "U1.C9",
+        "J8.19"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO10",
+      "connected": true,
+      "pads": [
+        "U1.A8",
+        "J8.37"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO11",
+      "connected": true,
+      "pads": [
+        "U1.A10",
+        "J8.39"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO12",
+      "connected": true,
+      "pads": [
+        "U1.D4",
+        "J8.41"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO13",
+      "connected": true,
+      "pads": [
+        "U1.A11",
+        "J8.43"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO14",
+      "connected": true,
+      "pads": [
+        "U1.C11",
+        "J8.45"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO15",
+      "connected": true,
+      "pads": [
+        "U1.A12",
+        "J8.47"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO16",
+      "connected": true,
+      "pads": [
+        "U1.B11",
+        "J8.49"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO17",
+      "connected": true,
+      "pads": [
+        "U1.B12",
+        "J8.51"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO18",
+      "connected": true,
+      "pads": [
+        "U1.L3",
+        "J8.53"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO19",
+      "connected": true,
+      "pads": [
+        "U1.B13",
+        "J8.55"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO2",
+      "connected": true,
+      "pads": [
+        "U1.H17",
+        "J8.21"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO20",
+      "connected": true,
+      "pads": [
+        "U1.C5",
+        "J8.57"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO21",
+      "connected": true,
+      "pads": [
+        "U1.E14",
+        "J8.59"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO22",
+      "connected": true,
+      "pads": [
+        "U1.P13",
+        "J8.61"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO23",
+      "connected": true,
+      "pads": [
+        "U1.H15",
+        "J8.63"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO24",
+      "connected": true,
+      "pads": [
+        "U1.R14",
+        "J8.65"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO25",
+      "connected": true,
+      "pads": [
+        "U1.H16",
+        "J8.67"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO26",
+      "connected": true,
+      "pads": [
+        "U1.R13",
+        "J8.69"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO27",
+      "connected": true,
+      "pads": [
+        "U1.C14",
+        "J8.71"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO28",
+      "connected": true,
+      "pads": [
+        "U1.B15",
+        "J8.73"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO29",
+      "connected": true,
+      "pads": [
+        "U1.N14",
+        "J8.75"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO3",
+      "connected": true,
+      "pads": [
+        "U1.U2",
+        "J8.23"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO30",
+      "connected": true,
+      "pads": [
+        "U1.A15",
+        "J8.77"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO31",
+      "connected": true,
+      "pads": [
+        "U1.A16",
+        "J8.79"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO4",
+      "connected": true,
+      "pads": [
+        "U1.K4",
+        "J8.25"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO5",
+      "connected": true,
+      "pads": [
+        "U1.N2",
+        "J8.27"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO6",
+      "connected": true,
+      "pads": [
+        "U1.H1",
+        "J8.29"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO7",
+      "connected": true,
+      "pads": [
+        "U1.B17",
+        "J8.31"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO8",
+      "connected": true,
+      "pads": [
+        "U1.B16",
+        "J8.33"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPIO9",
+      "connected": true,
+      "pads": [
+        "U1.A4",
+        "J8.35"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO0",
+      "connected": true,
+      "pads": [
+        "U5.E15",
+        "J8.42"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO1",
+      "connected": true,
+      "pads": [
+        "U5.B17",
+        "J8.44"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO10",
+      "connected": true,
+      "pads": [
+        "U5.C19",
+        "J8.62"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO11",
+      "connected": true,
+      "pads": [
+        "U5.A20",
+        "J8.64"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO2",
+      "connected": true,
+      "pads": [
+        "U5.E16",
+        "J8.46"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO3",
+      "connected": true,
+      "pads": [
+        "U5.C17",
+        "J8.48"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO4",
+      "connected": true,
+      "pads": [
+        "U5.A18",
+        "J8.50"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO5",
+      "connected": true,
+      "pads": [
+        "U5.F16",
+        "J8.52"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO6",
+      "connected": true,
+      "pads": [
+        "U5.D17",
+        "J8.54"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO7",
+      "connected": true,
+      "pads": [
+        "U5.C18",
+        "J8.56"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO8",
+      "connected": true,
+      "pads": [
+        "U5.A19",
+        "J8.58"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/GPO9",
+      "connected": true,
+      "pads": [
+        "U5.B19",
+        "J8.60"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/J8_RTS_CTS_LOOPBACK",
+      "connected": true,
+      "pads": [
+        "J8.66",
+        "J8.68"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/R2_UART",
+      "connected": true,
+      "pads": [
+        "U1.M14",
+        "J8.72"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/RESET",
+      "connected": true,
+      "pads": [
+        "R15.2",
+        "R125.2",
+        "J8.76"
+      ]
+    },
+    {
+      "net": "/Interface Sheet/T2_UART",
+      "connected": true,
+      "pads": [
+        "U1.N13",
+        "J8.70"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/50_MHz",
+      "connected": true,
+      "pads": [
+        "R130.1",
+        "U5.N5"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/ASW",
+      "connected": true,
+      "pads": [
+        "U8.1",
+        "U5.AA11",
+        "R115.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/CNTDI",
+      "connected": true,
+      "pads": [
+        "RN1.1",
+        "U10.1",
+        "R121.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/CNTMS",
+      "connected": true,
+      "pads": [
+        "RN1.2",
+        "U10.3",
+        "R120.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/J_TCK",
+      "connected": true,
+      "pads": [
+        "RN1.4",
+        "J6.1",
+        "R118.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/J_TDI",
+      "connected": true,
+      "pads": [
+        "R121.2",
+        "J6.9"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/J_TDO",
+      "connected": true,
+      "pads": [
+        "J6.3",
+        "R119.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/J_TMS",
+      "connected": true,
+      "pads": [
+        "J6.5",
+        "R120.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/MAX10_FAULT",
+      "connected": true,
+      "pads": [
+        "U5.C12",
+        "U1.K14"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/MAX10_IRQ",
+      "connected": true,
+      "pads": [
+        "U5.J11",
+        "U1.R16"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/MAX10_READY",
+      "connected": true,
+      "pads": [
+        "U5.E14",
+        "U1.R15"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/MCU_HEARTBEAT",
+      "connected": true,
+      "pads": [
+        "U5.C5",
+        "U1.J14"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI1_MOSI",
+      "connected": true,
+      "pads": [
+        "U5.C22",
+        "R9.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI1_NSS",
+      "connected": true,
+      "pads": [
+        "U5.C20",
+        "R5.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI1_SCLK",
+      "connected": true,
+      "pads": [
+        "U5.C21",
+        "R6.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI2_MOSI",
+      "connected": true,
+      "pads": [
+        "U5.D19",
+        "R25.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI2_NSS",
+      "connected": true,
+      "pads": [
+        "U5.D18",
+        "R11.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI2_SCLK",
+      "connected": true,
+      "pads": [
+        "U5.K21",
+        "R10.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI3_MOSI",
+      "connected": true,
+      "pads": [
+        "U5.D22",
+        "R29.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI3_NSS",
+      "connected": true,
+      "pads": [
+        "U5.D21",
+        "R8.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI3_SCLK",
+      "connected": true,
+      "pads": [
+        "U5.K22",
+        "R28.2"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI4_MISO",
+      "connected": true,
+      "pads": [
+        "U5.J21",
+        "R36.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI4_MOSI",
+      "connected": true,
+      "pads": [
+        "U5.E20",
+        "R37.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI4_NSS",
+      "connected": true,
+      "pads": [
+        "U5.A12",
+        "R35.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/SPI4_SCLK",
+      "connected": true,
+      "pads": [
+        "U5.L14",
+        "R34.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/U4_SW_L",
+      "connected": true,
+      "pads": [
+        "U4.5",
+        "U4.6",
+        "U4.7"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XCONFDONE",
+      "connected": true,
+      "pads": [
+        "U5.F8",
+        "U1.H2",
+        "U12.1",
+        "R124.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XCONFIGSEL",
+      "connected": true,
+      "pads": [
+        "U5.H10",
+        "R117.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XJAGEN",
+      "connected": true,
+      "pads": [
+        "U5.K9",
+        "RN2.6"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XNCONFIG",
+      "connected": true,
+      "pads": [
+        "R127.2",
+        "U1.U15"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XNCONFIG_FPGA",
+      "connected": true,
+      "pads": [
+        "S2.1",
+        "S2.3",
+        "R122.1",
+        "U11.3",
+        "U5.H9",
+        "R123.1",
+        "R125.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XNSTATUS",
+      "connected": true,
+      "pads": [
+        "R114.1",
+        "U5.G9",
+        "U1.T13"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XTCK",
+      "connected": true,
+      "pads": [
+        "U5.G2",
+        "RN3.8"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XTDI",
+      "connected": true,
+      "pads": [
+        "U5.L4",
+        "RN2.8",
+        "RN3.7"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XTDO",
+      "connected": true,
+      "pads": [
+        "U5.M5",
+        "RN2.5",
+        "U9.1"
+      ]
+    },
+    {
+      "net": "/MAX10 Sheet/XTMS",
+      "connected": true,
+      "pads": [
+        "U5.H2",
+        "RN2.7",
+        "RN3.6"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A0",
+      "connected": true,
+      "pads": [
+        "R47.2",
+        "U2.G8"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A1",
+      "connected": true,
+      "pads": [
+        "U2.G9",
+        "R48.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A10",
+      "connected": true,
+      "pads": [
+        "U2.G7",
+        "R59.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A11",
+      "connected": true,
+      "pads": [
+        "R60.2",
+        "U2.H9"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A2",
+      "connected": true,
+      "pads": [
+        "R49.2",
+        "U2.F7"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A3",
+      "connected": true,
+      "pads": [
+        "U2.F3",
+        "R50.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A4",
+      "connected": true,
+      "pads": [
+        "R51.2",
+        "U2.G1"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A5",
+      "connected": true,
+      "pads": [
+        "U2.G2",
+        "R52.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A6",
+      "connected": true,
+      "pads": [
+        "R54.2",
+        "U2.G3"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A7",
+      "connected": true,
+      "pads": [
+        "U2.H1",
+        "R55.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A8",
+      "connected": true,
+      "pads": [
+        "R56.2",
+        "U2.H2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_A9",
+      "connected": true,
+      "pads": [
+        "R57.2",
+        "U2.J3"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_BA0",
+      "connected": true,
+      "pads": [
+        "U2.J7",
+        "R61.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_BA1",
+      "connected": true,
+      "pads": [
+        "U2.H8",
+        "R62.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D0",
+      "connected": true,
+      "pads": [
+        "R40.2",
+        "U2.R8"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D1",
+      "connected": true,
+      "pads": [
+        "R23.2",
+        "U2.N7"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D10",
+      "connected": true,
+      "pads": [
+        "R42.2",
+        "U2.M2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D11",
+      "connected": true,
+      "pads": [
+        "R19.2",
+        "U2.P1"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D12",
+      "connected": true,
+      "pads": [
+        "U2.N2",
+        "R20.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D13",
+      "connected": true,
+      "pads": [
+        "R46.2",
+        "U2.L2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D14",
+      "connected": true,
+      "pads": [
+        "R44.2",
+        "U2.N3"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D15",
+      "connected": true,
+      "pads": [
+        "R45.2",
+        "U2.R2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D2",
+      "connected": true,
+      "pads": [
+        "R38.2",
+        "U2.R9"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D3",
+      "connected": true,
+      "pads": [
+        "R22.2",
+        "U2.N8"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D4",
+      "connected": true,
+      "pads": [
+        "U2.P9",
+        "R41.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D5",
+      "connected": true,
+      "pads": [
+        "R39.2",
+        "U2.M8"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D6",
+      "connected": true,
+      "pads": [
+        "R18.2",
+        "U2.M7"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D7",
+      "connected": true,
+      "pads": [
+        "U2.L8",
+        "R17.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D8",
+      "connected": true,
+      "pads": [
+        "U2.R1",
+        "R21.2"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_D9",
+      "connected": true,
+      "pads": [
+        "R43.2",
+        "U2.M3"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_NBL0",
+      "connected": true,
+      "pads": [
+        "R32.2",
+        "U2.K9"
+      ]
+    },
+    {
+      "net": "/SDRAM Sheet/SDRAM_NBL1",
+      "connected": true,
+      "pads": [
+        "R33.2",
+        "U2.K1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/BOOT0",
+      "connected": true,
+      "pads": [
+        "U1.E8",
+        "R131.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/NRST",
+      "connected": true,
+      "pads": [
+        "J4.12",
+        "R15.1",
+        "R104.2",
+        "D1.2",
+        "U1.K1",
+        "S1.1",
+        "S1.3",
+        "C5.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/OSC32_IN",
+      "connected": true,
+      "pads": [
+        "X1.1",
+        "C3.1",
+        "U1.C2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/OSC32_OUT",
+      "connected": true,
+      "pads": [
+        "X1.2",
+        "U1.C1",
+        "C4.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/OSC_25MHz",
+      "connected": true,
+      "pads": [
+        "X2.3",
+        "U1.J2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA0",
+      "connected": true,
+      "pads": [
+        "TP2.1",
+        "U5.A7",
+        "U1.N5",
+        "J7.77"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA1",
+      "connected": true,
+      "pads": [
+        "U1.N4",
+        "R105.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA11",
+      "connected": true,
+      "pads": [
+        "U1.E17",
+        "J1.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA12",
+      "connected": true,
+      "pads": [
+        "U1.E16",
+        "J1.3"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA13",
+      "connected": true,
+      "pads": [
+        "J4.4",
+        "U1.C15"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA14",
+      "connected": true,
+      "pads": [
+        "J4.6",
+        "U1.B14"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA15",
+      "connected": true,
+      "pads": [
+        "U1.A14",
+        "R8.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA2",
+      "connected": true,
+      "pads": [
+        "R98.2",
+        "U3.12",
+        "U1.N3"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA4",
+      "connected": true,
+      "pads": [
+        "U1.U3",
+        "R5.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA5",
+      "connected": true,
+      "pads": [
+        "U1.B9",
+        "R6.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PA7",
+      "connected": true,
+      "pads": [
+        "R92.1",
+        "U1.R5"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PB10",
+      "connected": true,
+      "pads": [
+        "U1.P11",
+        "R10.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PB12",
+      "connected": true,
+      "pads": [
+        "U1.T14",
+        "R11.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PB13",
+      "connected": true,
+      "pads": [
+        "U3.18",
+        "U1.U14"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PB3",
+      "connected": true,
+      "pads": [
+        "J4.8",
+        "U1.C6"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PB5",
+      "connected": true,
+      "pads": [
+        "U1.A5",
+        "R9.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC1",
+      "connected": true,
+      "pads": [
+        "U3.13",
+        "U1.M2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC10",
+      "connected": true,
+      "pads": [
+        "U1.A13",
+        "R28.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC12",
+      "connected": true,
+      "pads": [
+        "U1.C12",
+        "R29.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC2_C",
+      "connected": true,
+      "pads": [
+        "J3.2",
+        "U1.R1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC3",
+      "connected": true,
+      "pads": [
+        "U1.M4",
+        "R25.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC3_C",
+      "connected": true,
+      "pads": [
+        "J3.3",
+        "U1.R2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC4",
+      "connected": true,
+      "pads": [
+        "R91.1",
+        "U1.T4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PC5",
+      "connected": true,
+      "pads": [
+        "R90.1",
+        "U1.U4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD0",
+      "connected": true,
+      "pads": [
+        "U1.D13",
+        "R17.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD1",
+      "connected": true,
+      "pads": [
+        "R18.1",
+        "U1.E12"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD10",
+      "connected": true,
+      "pads": [
+        "U1.T16",
+        "R21.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD14",
+      "connected": true,
+      "pads": [
+        "R22.1",
+        "U1.P16"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD15",
+      "connected": true,
+      "pads": [
+        "U1.P15",
+        "R23.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD8",
+      "connected": true,
+      "pads": [
+        "R19.1",
+        "U1.U16"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PD9",
+      "connected": true,
+      "pads": [
+        "U1.T17",
+        "R20.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE0",
+      "connected": true,
+      "pads": [
+        "R32.1",
+        "U1.C4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE1",
+      "connected": true,
+      "pads": [
+        "R33.1",
+        "U1.B4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE10",
+      "connected": true,
+      "pads": [
+        "U1.N9",
+        "R41.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE11",
+      "connected": true,
+      "pads": [
+        "R42.1",
+        "U1.P10"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE12",
+      "connected": true,
+      "pads": [
+        "R43.1",
+        "U1.R10"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE13",
+      "connected": true,
+      "pads": [
+        "R44.1",
+        "U1.T10"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE14",
+      "connected": true,
+      "pads": [
+        "R45.1",
+        "U1.U10"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE15",
+      "connected": true,
+      "pads": [
+        "R46.1",
+        "U1.R11"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE2",
+      "connected": true,
+      "pads": [
+        "U1.C3",
+        "R34.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE4",
+      "connected": true,
+      "pads": [
+        "U1.D2",
+        "R35.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE5",
+      "connected": true,
+      "pads": [
+        "U1.D1",
+        "R36.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE6",
+      "connected": true,
+      "pads": [
+        "U1.E5",
+        "R37.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE7",
+      "connected": true,
+      "pads": [
+        "U1.U9",
+        "R38.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE8",
+      "connected": true,
+      "pads": [
+        "R39.1",
+        "U1.T9"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PE9",
+      "connected": true,
+      "pads": [
+        "U1.P9",
+        "R40.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF0",
+      "connected": true,
+      "pads": [
+        "R47.1",
+        "U1.G4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF1",
+      "connected": true,
+      "pads": [
+        "U1.G3",
+        "R48.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF11",
+      "connected": true,
+      "pads": [
+        "U1.T7",
+        "R53.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF12",
+      "connected": true,
+      "pads": [
+        "R54.1",
+        "U1.R7"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF13",
+      "connected": true,
+      "pads": [
+        "U1.P7",
+        "R55.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF14",
+      "connected": true,
+      "pads": [
+        "R56.1",
+        "U1.P8"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF15",
+      "connected": true,
+      "pads": [
+        "R57.1",
+        "U1.R9"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF2",
+      "connected": true,
+      "pads": [
+        "R49.1",
+        "U1.G1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF3",
+      "connected": true,
+      "pads": [
+        "U1.H4",
+        "R50.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF4",
+      "connected": true,
+      "pads": [
+        "U1.J5",
+        "R51.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PF5",
+      "connected": true,
+      "pads": [
+        "U1.J4",
+        "R52.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG0",
+      "connected": true,
+      "pads": [
+        "U1.T8",
+        "R59.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG1",
+      "connected": true,
+      "pads": [
+        "R60.1",
+        "U1.U8"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG10",
+      "connected": true,
+      "pads": [
+        "U1.A9",
+        "J1.6"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG11",
+      "connected": true,
+      "pads": [
+        "U3.16",
+        "U1.P12"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG13",
+      "connected": true,
+      "pads": [
+        "U3.17",
+        "U1.D9"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG15",
+      "connected": true,
+      "pads": [
+        "U1.D6",
+        "R64.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG4",
+      "connected": true,
+      "pads": [
+        "U1.H14",
+        "R61.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG5",
+      "connected": true,
+      "pads": [
+        "U1.G14",
+        "R62.1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG6",
+      "connected": true,
+      "pads": [
+        "U1.G15",
+        "J1.4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG7",
+      "connected": true,
+      "pads": [
+        "U1.F16",
+        "J1.5"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PG8",
+      "connected": true,
+      "pads": [
+        "R63.1",
+        "U1.F15"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PH5",
+      "connected": true,
+      "pads": [
+        "R65.1",
+        "U1.P4"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PH6",
+      "connected": true,
+      "pads": [
+        "R66.1",
+        "U1.T11"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/PH7",
+      "connected": true,
+      "pads": [
+        "R67.1",
+        "U1.U13"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/SDRAM_SDCKE1",
+      "connected": true,
+      "pads": [
+        "R67.2",
+        "U2.J2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/SDRAM_SDCLK",
+      "connected": true,
+      "pads": [
+        "R63.2",
+        "U2.J1"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/SDRAM_SDNCAS",
+      "connected": true,
+      "pads": [
+        "R64.2",
+        "U2.K7"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/SDRAM_SDNE1",
+      "connected": true,
+      "pads": [
+        "R66.2",
+        "U2.J8"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/SDRAM_SDNRAS",
+      "connected": true,
+      "pads": [
+        "U2.J9",
+        "R53.2"
+      ]
+    },
+    {
+      "net": "/STM32H7 Sheet/SDRAM_SDNWE",
+      "connected": true,
+      "pads": [
+        "R65.2",
+        "U2.K8"
+      ]
+    },
+    {
+      "net": "Earth",
+      "connected": true,
+      "pads": [
+        "J5.5",
+        "J5.6"
+      ]
+    },
+    {
+      "net": "GND",
+      "connected": true,
+      "pads": [
+        "J4.5",
+        "J4.7",
+        "R84.1",
+        "X2.2",
+        "C44.2",
+        "RN1.5",
+        "C89.2",
+        "C3.2",
+        "R111.2",
+        "U6.1",
+        "C84.2",
+        "U10.2",
+        "C28.2",
+        "R78.1",
+        "C26.2",
+        "Y1.2",
+        "Y1.4",
+        "S2.2",
+        "S2.4",
+        "C55.2",
+        "C55.4",
+        "C88.2",
+        "C88.4",
+        "C85.2",
+        "C52.2",
+        "C86.2",
+        "R75.1",
+        "C96.2",
+        "R73.1",
+        "R126.2",
+        "U11.2",
+        "R72.1",
+        "C103.2",
+        "C97.2",
+        "R81.1",
+        "U13.2",
+        "C43.2",
+        "C83.2",
+        "C91.2",
+        "R74.1",
+        "J3.1",
+        "U8.3",
+        "U8.4",
+        "U5.A1",
+        "U5.A22",
+        "U5.AA4",
+        "U5.AA18",
+        "U5.AB1",
+        "U5.AB22",
+        "U5.B6",
+        "U5.B9",
+        "U5.B13",
+        "U5.B18",
+        "U5.D4",
+        "U5.D11",
+        "U5.D16",
+        "U5.D20",
+        "U5.E2",
+        "U5.E7",
+        "U5.F10",
+        "U5.F13",
+        "U5.G5",
+        "U5.G6",
+        "U5.G8",
+        "U5.G15",
+        "U5.G18",
+        "U5.G21",
+        "U5.H5",
+        "U5.J2",
+        "U5.J6",
+        "U5.J16",
+        "U5.J19",
+        "U5.K10",
+        "U5.K12",
+        "U5.L5",
+        "U5.L13",
+        "U5.L17",
+        "U5.L21",
+        "U5.M7",
+        "U5.M10",
+        "U5.M16",
+        "U5.M19",
+        "U5.N11",
+        "U5.N13",
+        "U5.P2",
+        "U5.P6",
+        "U5.P17",
+        "U5.R19",
+        "U5.R21",
+        "U5.T4",
+        "U5.T8",
+        "U5.T14",
+        "U5.T16",
+        "U5.U10",
+        "U5.U13",
+        "U5.V2",
+        "U5.V6",
+        "U5.V19",
+        "U5.W21",
+        "U5.Y9",
+        "U5.Y12",
+        "U5.Y15",
+        "C102.2",
+        "R80.1",
+        "U3.25",
+        "C61.2",
+        "C61.4",
+        "TPG1.1",
+        "J6.2",
+        "J6.10",
+        "R16.2",
+        "C90.2",
+        "R101.1",
+        "R83.1",
+        "C95.2",
+        "C93.2",
+        "R85.1",
+        "C105.2",
+        "U1.A1",
+        "U1.A17",
+        "U1.B2",
+        "U1.B6",
+        "U1.C10",
+        "U1.C13",
+        "U1.C16",
+        "U1.F2",
+        "U1.G7",
+        "U1.G8",
+        "U1.G9",
+        "U1.G10",
+        "U1.G11",
+        "U1.G16",
+        "U1.H7",
+        "U1.H8",
+        "U1.H9",
+        "U1.H10",
+        "U1.H11",
+        "U1.J3",
+        "U1.J7",
+        "U1.J8",
+        "U1.J9",
+        "U1.J10",
+        "U1.J11",
+        "U1.J16",
+        "U1.J17",
+        "U1.K7",
+        "U1.K8",
+        "U1.K9",
+        "U1.K10",
+        "U1.K11",
+        "U1.K15",
+        "U1.L7",
+        "U1.L8",
+        "U1.L9",
+        "U1.L10",
+        "U1.L11",
+        "U1.L15",
+        "U1.M15",
+        "U1.N1",
+        "U1.N16",
+        "U1.P1",
+        "U1.R4",
+        "U1.R8",
+        "U1.T12",
+        "U1.U1",
+        "U1.U17",
+        "C6.2",
+        "C87.2",
+        "R82.1",
+        "C53.2",
+        "U2.A3",
+        "U2.B3",
+        "U2.B8",
+        "U2.C1",
+        "U2.D1",
+        "U2.E9",
+        "U2.F1",
+        "U2.L3",
+        "U2.L9",
+        "U2.M1",
+        "U2.N1",
+        "U2.P3",
+        "U2.P8",
+        "U2.R3",
+        "C4.2",
+        "U9.2",
+        "R100.2",
+        "U7.2",
+        "U12.2",
+        "U12.3",
+        "C94.2",
+        "R71.1",
+        "R77.1",
+        "C104.2",
+        "TPG2.1",
+        "U4.1",
+        "U4.16",
+        "R79.1",
+        "R76.1",
+        "C92.2",
+        "C54.2",
+        "R31.1",
+        "R31.2",
+        "R88.1",
+        "D2.1",
+        "R86.1",
+        "J1.1",
+        "R87.1",
+        "C82.2",
+        "C36.2",
+        "C47.2",
+        "C30.2",
+        "C33.2",
+        "C16.2",
+        "C45.2",
+        "C51.2",
+        "C21.2",
+        "C62.2",
+        "C73.2",
+        "C41.2",
+        "J8.G1",
+        "J8.G2",
+        "J8.G3",
+        "J8.G4",
+        "J8.G5",
+        "J8.G6",
+        "J8.G7",
+        "J8.G8",
+        "J8.MP1",
+        "J8.MP2",
+        "C18.2",
+        "C29.2",
+        "C23.2",
+        "C9.2",
+        "C7.2",
+        "C12.2",
+        "C68.2",
+        "C63.2",
+        "C32.2",
+        "C38.2",
+        "C40.2",
+        "C11.2",
+        "C65.2",
+        "C101.2",
+        "C35.2",
+        "C98.2",
+        "C99.2",
+        "C13.2",
+        "C66.2",
+        "C71.2",
+        "C14.2",
+        "C78.2",
+        "C8.2",
+        "J10.G1",
+        "J10.G2",
+        "J10.G3",
+        "J10.G4",
+        "J10.G5",
+        "J10.G6",
+        "J10.G7",
+        "J10.G8",
+        "J10.G9",
+        "J10.G10",
+        "J10.MP1",
+        "J10.MP2",
+        "C59.2",
+        "C75.2",
+        "C81.2",
+        "C46.2",
+        "C49.2",
+        "C15.2",
+        "C69.2",
+        "R95.2",
+        "C48.2",
+        "C74.2",
+        "C67.2",
+        "C25.2",
+        "C50.2",
+        "C58.2",
+        "J7.G1",
+        "J7.G2",
+        "J7.G3",
+        "J7.G4",
+        "J7.G5",
+        "J7.G6",
+        "J7.G7",
+        "J7.G8",
+        "J7.MP1",
+        "J7.MP2",
+        "C60.2",
+        "C56.2",
+        "C39.2",
+        "C37.2",
+        "R93.1",
+        "J9.G1",
+        "J9.G2",
+        "J9.G3",
+        "J9.G4",
+        "J9.G5",
+        "J9.G6",
+        "J9.G7",
+        "J9.G8",
+        "J9.G9",
+        "J9.G10",
+        "J9.MP1",
+        "J9.MP2",
+        "R131.2",
+        "C31.2",
+        "R30.1",
+        "R30.2",
+        "C100.2",
+        "C70.2",
+        "C27.2",
+        "C24.2",
+        "C64.2",
+        "C17.2",
+        "C22.2",
+        "C34.2",
+        "C79.2",
+        "C42.2",
+        "C5.2",
+        "C76.2",
+        "C57.2",
+        "C19.2",
+        "R103.2",
+        "R99.1",
+        "C77.2",
+        "C20.2",
+        "C10.2",
+        "C80.2",
+        "C72.2"
+      ]
+    },
+    {
+      "net": "Net-(D1-A)",
+      "connected": true,
+      "pads": [
+        "D1.3",
+        "S1.2",
+        "S1.4"
+      ]
+    },
+    {
+      "net": "Net-(D2-A)",
+      "connected": true,
+      "pads": [
+        "R128.1",
+        "D2.2"
+      ]
+    },
+    {
+      "net": "Net-(J4-Pad11)",
+      "connected": true,
+      "pads": [
+        "J4.11",
+        "R16.1"
+      ]
+    },
+    {
+      "net": "Net-(J5B-CATHODE-Pad12)",
+      "connected": true,
+      "pads": [
+        "J5.12",
+        "R99.2"
+      ]
+    },
+    {
+      "net": "Net-(J5B-CATHODE-Pad14)",
+      "connected": true,
+      "pads": [
+        "J5.14",
+        "R100.1"
+      ]
+    },
+    {
+      "net": "Net-(J8-Pad74)",
+      "connected": true,
+      "pads": [
+        "TP4.1",
+        "J8.74"
+      ]
+    },
+    {
+      "net": "Net-(R116-Pad2)",
+      "connected": true,
+      "pads": [
+        "U8.2",
+        "R117.2",
+        "R116.2"
+      ]
+    },
+    {
+      "net": "Net-(RN3-R1.1)",
+      "connected": true,
+      "pads": [
+        "U9.4",
+        "RN3.1"
+      ]
+    },
+    {
+      "net": "Net-(RN3-R2.1)",
+      "connected": true,
+      "pads": [
+        "U10.6",
+        "RN3.2"
+      ]
+    },
+    {
+      "net": "Net-(RN3-R3.1)",
+      "connected": true,
+      "pads": [
+        "U10.4",
+        "RN3.3"
+      ]
+    },
+    {
+      "net": "Net-(U11-G)",
+      "connected": true,
+      "pads": [
+        "R127.1",
+        "R126.1",
+        "U11.1"
+      ]
+    },
+    {
+      "net": "Net-(U12-1Y)",
+      "connected": true,
+      "pads": [
+        "R128.2",
+        "U12.6"
+      ]
+    },
+    {
+      "net": "Net-(U13-*ST)",
+      "connected": true,
+      "pads": [
+        "U13.1",
+        "R129.1"
+      ]
+    },
+    {
+      "net": "Net-(U13-OUT)",
+      "connected": true,
+      "pads": [
+        "U13.3",
+        "R130.2"
+      ]
+    },
+    {
+      "net": "Net-(U1C-PDR_ON)",
+      "connected": true,
+      "pads": [
+        "U1.E7",
+        "R14.1"
+      ]
+    },
+    {
+      "net": "Net-(U1D-VBAT)",
+      "connected": true,
+      "pads": [
+        "U1.B1",
+        "C8.1",
+        "R58.2"
+      ]
+    },
+    {
+      "net": "Net-(U1D-VDDSMPS)",
+      "connected": true,
+      "pads": [
+        "U1.F1",
+        "L3.2",
+        "C22.1"
+      ]
+    },
+    {
+      "net": "Net-(U1D-VLXSMPS)",
+      "connected": true,
+      "pads": [
+        "L1.2",
+        "U1.E1",
+        "C10.1"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ16)",
+      "connected": true,
+      "pads": [
+        "U2.E8",
+        "R86.2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ17)",
+      "connected": true,
+      "pads": [
+        "R83.2",
+        "U2.D7"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ18)",
+      "connected": true,
+      "pads": [
+        "R84.2",
+        "U2.D8"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ19)",
+      "connected": true,
+      "pads": [
+        "U2.B9",
+        "R76.2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ20)",
+      "connected": true,
+      "pads": [
+        "R80.2",
+        "U2.C8"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ21)",
+      "connected": true,
+      "pads": [
+        "R74.2",
+        "U2.A9"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ22)",
+      "connected": true,
+      "pads": [
+        "U2.C7",
+        "R79.2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ23)",
+      "connected": true,
+      "pads": [
+        "R73.2",
+        "U2.A8"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ24)",
+      "connected": true,
+      "pads": [
+        "R72.2",
+        "U2.A2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ25)",
+      "connected": true,
+      "pads": [
+        "R78.2",
+        "U2.C3"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ26)",
+      "connected": true,
+      "pads": [
+        "U2.A1",
+        "R71.2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ27)",
+      "connected": true,
+      "pads": [
+        "U2.C2",
+        "R77.2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ28)",
+      "connected": true,
+      "pads": [
+        "R75.2",
+        "U2.B1"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ29)",
+      "connected": true,
+      "pads": [
+        "R81.2",
+        "U2.D2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ30)",
+      "connected": true,
+      "pads": [
+        "R82.2",
+        "U2.D3"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQ31)",
+      "connected": true,
+      "pads": [
+        "R85.2",
+        "U2.E2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQM2)",
+      "connected": true,
+      "pads": [
+        "U2.F8",
+        "R88.2"
+      ]
+    },
+    {
+      "net": "Net-(U2-DQM3)",
+      "connected": true,
+      "pads": [
+        "U2.F2",
+        "R87.2"
+      ]
+    },
+    {
+      "net": "Net-(U3-CRS_DV{slash}*MODE2)",
+      "connected": true,
+      "pads": [
+        "R92.2",
+        "R97.2",
+        "U3.11"
+      ]
+    },
+    {
+      "net": "Net-(U3-NINT{slash}REFCLKO)",
+      "connected": true,
+      "pads": [
+        "U3.14",
+        "R105.1",
+        "R102.2"
+      ]
+    },
+    {
+      "net": "Net-(U3-NRST)",
+      "connected": true,
+      "pads": [
+        "R104.1",
+        "U3.15"
+      ]
+    },
+    {
+      "net": "Net-(U3-RBIAS)",
+      "connected": true,
+      "pads": [
+        "U3.24",
+        "R103.1"
+      ]
+    },
+    {
+      "net": "Net-(U3-RXD0{slash}*MODE0)",
+      "connected": true,
+      "pads": [
+        "R91.2",
+        "U3.8",
+        "R96.2"
+      ]
+    },
+    {
+      "net": "Net-(U3-RXD1{slash}*MODE1)",
+      "connected": true,
+      "pads": [
+        "R90.2",
+        "U3.7",
+        "R94.2"
+      ]
+    },
+    {
+      "net": "Net-(U3-RXER{slash}*PHYAD0)",
+      "connected": true,
+      "pads": [
+        "U3.10",
+        "R95.1"
+      ]
+    },
+    {
+      "net": "Net-(U3-VDDCR)",
+      "connected": true,
+      "pads": [
+        "U3.6",
+        "C45.1",
+        "C46.1"
+      ]
+    },
+    {
+      "net": "Net-(U3-XTAL1{slash}CLKIN)",
+      "connected": true,
+      "pads": [
+        "C44.1",
+        "Y1.3",
+        "U3.5"
+      ]
+    },
+    {
+      "net": "Net-(U3-XTAL2)",
+      "connected": true,
+      "pads": [
+        "R89.1",
+        "U3.4"
+      ]
+    },
+    {
+      "net": "Net-(U4-EN)",
+      "connected": true,
+      "pads": [
+        "R110.1",
+        "U4.4"
+      ]
+    },
+    {
+      "net": "Net-(U4-FB)",
+      "connected": true,
+      "pads": [
+        "R111.1",
+        "R112.2",
+        "U4.2"
+      ]
+    },
+    {
+      "net": "Net-(U4-PG)",
+      "connected": true,
+      "pads": [
+        "R113.2",
+        "U4.12"
+      ]
+    },
+    {
+      "net": "Net-(U6-*RESET)",
+      "connected": true,
+      "pads": [
+        "U6.2",
+        "R122.2"
+      ]
+    },
+    {
+      "net": "Net-(U9-1Y)",
+      "connected": true,
+      "pads": [
+        "U9.6",
+        "R119.1"
+      ]
+    },
+    {
+      "net": "Net-(U9-2A)",
+      "connected": true,
+      "pads": [
+        "U9.3",
+        "R118.1"
+      ]
+    },
+    {
+      "net": "Net-(X2-TRI-STATE)",
+      "connected": true,
+      "pads": [
+        "X2.1",
+        "R13.2"
+      ]
+    },
+    {
+      "net": "Net-(Y1-XI)",
+      "connected": true,
+      "pads": [
+        "R89.2",
+        "Y1.1",
+        "C43.1"
+      ]
+    },
+    {
+      "net": "VDD_SDC",
+      "connected": true,
+      "pads": [
+        "L1.1",
+        "U1.A6",
+        "U1.A7",
+        "U1.C17",
+        "U1.D17",
+        "U1.G2",
+        "U1.U11",
+        "U1.U12",
+        "C14.1",
+        "C15.1",
+        "C17.1"
+      ]
+    }
+  ],
+  "connector_fpga_links": [
+    {
+      "connector": "J8.18",
+      "fpga_pin": "A13",
+      "net": "/Interface Sheet/GPI0",
+      "connected": true
+    },
+    {
+      "connector": "J8.20",
+      "fpga_pin": "T3",
+      "net": "/Interface Sheet/GPI1",
+      "connected": true
+    },
+    {
+      "connector": "J8.22",
+      "fpga_pin": "A14",
+      "net": "/Interface Sheet/GPI2",
+      "connected": true
+    },
+    {
+      "connector": "J8.24",
+      "fpga_pin": "U6",
+      "net": "/Interface Sheet/GPI3",
+      "connected": true
+    },
+    {
+      "connector": "J8.26",
+      "fpga_pin": "B14",
+      "net": "/Interface Sheet/GPI4",
+      "connected": true
+    },
+    {
+      "connector": "J8.28",
+      "fpga_pin": "W5",
+      "net": "/Interface Sheet/GPI5",
+      "connected": true
+    },
+    {
+      "connector": "J8.30",
+      "fpga_pin": "A15",
+      "net": "/Interface Sheet/GPI6",
+      "connected": true
+    },
+    {
+      "connector": "J8.32",
+      "fpga_pin": "D14",
+      "net": "/Interface Sheet/GPI7",
+      "connected": true
+    },
+    {
+      "connector": "J8.34",
+      "fpga_pin": "B15",
+      "net": "/Interface Sheet/GPI8",
+      "connected": true
+    },
+    {
+      "connector": "J8.36",
+      "fpga_pin": "D15",
+      "net": "/Interface Sheet/GPI9",
+      "connected": true
+    },
+    {
+      "connector": "J8.38",
+      "fpga_pin": "A17",
+      "net": "/Interface Sheet/GPI10",
+      "connected": true
+    },
+    {
+      "connector": "J8.40",
+      "fpga_pin": "H14",
+      "net": "/Interface Sheet/GPI11",
+      "connected": true
+    },
+    {
+      "connector": "J8.42",
+      "fpga_pin": "E15",
+      "net": "/Interface Sheet/GPO0",
+      "connected": true
+    },
+    {
+      "connector": "J8.44",
+      "fpga_pin": "B17",
+      "net": "/Interface Sheet/GPO1",
+      "connected": true
+    },
+    {
+      "connector": "J8.46",
+      "fpga_pin": "E16",
+      "net": "/Interface Sheet/GPO2",
+      "connected": true
+    },
+    {
+      "connector": "J8.48",
+      "fpga_pin": "C17",
+      "net": "/Interface Sheet/GPO3",
+      "connected": true
+    },
+    {
+      "connector": "J8.50",
+      "fpga_pin": "A18",
+      "net": "/Interface Sheet/GPO4",
+      "connected": true
+    },
+    {
+      "connector": "J8.52",
+      "fpga_pin": "F16",
+      "net": "/Interface Sheet/GPO5",
+      "connected": true
+    },
+    {
+      "connector": "J8.54",
+      "fpga_pin": "D17",
+      "net": "/Interface Sheet/GPO6",
+      "connected": true
+    },
+    {
+      "connector": "J8.56",
+      "fpga_pin": "C18",
+      "net": "/Interface Sheet/GPO7",
+      "connected": true
+    },
+    {
+      "connector": "J8.58",
+      "fpga_pin": "A19",
+      "net": "/Interface Sheet/GPO8",
+      "connected": true
+    },
+    {
+      "connector": "J8.60",
+      "fpga_pin": "B19",
+      "net": "/Interface Sheet/GPO9",
+      "connected": true
+    },
+    {
+      "connector": "J8.62",
+      "fpga_pin": "C19",
+      "net": "/Interface Sheet/GPO10",
+      "connected": true
+    },
+    {
+      "connector": "J8.64",
+      "fpga_pin": "A20",
+      "net": "/Interface Sheet/GPO11",
+      "connected": true
+    },
+    {
+      "connector": "J10.17",
+      "fpga_pin": "E22",
+      "net": "/Interface Sheet/DF0",
+      "connected": true
+    },
+    {
+      "connector": "J10.18",
+      "fpga_pin": "E19",
+      "net": "/Interface Sheet/DG0",
+      "connected": true
+    },
+    {
+      "connector": "J10.19",
+      "fpga_pin": "F20",
+      "net": "/Interface Sheet/DF1",
+      "connected": true
+    },
+    {
+      "connector": "J10.20",
+      "fpga_pin": "F18",
+      "net": "/Interface Sheet/DG1",
+      "connected": true
+    },
+    {
+      "connector": "J10.21",
+      "fpga_pin": "G19",
+      "net": "/Interface Sheet/DF2",
+      "connected": true
+    },
+    {
+      "connector": "J10.22",
+      "fpga_pin": "E21",
+      "net": "/Interface Sheet/DG2",
+      "connected": true
+    },
+    {
+      "connector": "J10.23",
+      "fpga_pin": "G20",
+      "net": "/Interface Sheet/DF3",
+      "connected": true
+    },
+    {
+      "connector": "J10.24",
+      "fpga_pin": "F19",
+      "net": "/Interface Sheet/DG3",
+      "connected": true
+    },
+    {
+      "connector": "J10.25",
+      "fpga_pin": "G22",
+      "net": "/Interface Sheet/DF4",
+      "connected": true
+    },
+    {
+      "connector": "J10.26",
+      "fpga_pin": "G17",
+      "net": "/Interface Sheet/DG4",
+      "connected": true
+    },
+    {
+      "connector": "J10.27",
+      "fpga_pin": "P13",
+      "net": "/Interface Sheet/DF5",
+      "connected": true
+    },
+    {
+      "connector": "J10.28",
+      "fpga_pin": "F21",
+      "net": "/Interface Sheet/DG5",
+      "connected": true
+    },
+    {
+      "connector": "J10.29",
+      "fpga_pin": "H21",
+      "net": "/Interface Sheet/DF6",
+      "connected": true
+    },
+    {
+      "connector": "J10.30",
+      "fpga_pin": "F22",
+      "net": "/Interface Sheet/DG6",
+      "connected": true
+    },
+    {
+      "connector": "J10.31",
+      "fpga_pin": "R13",
+      "net": "/Interface Sheet/DF7",
+      "connected": true
+    },
+    {
+      "connector": "J10.32",
+      "fpga_pin": "K15",
+      "net": "/Interface Sheet/DG7",
+      "connected": true
+    },
+    {
+      "connector": "J10.33",
+      "fpga_pin": "L18",
+      "net": "/Interface Sheet/DF8",
+      "connected": true
+    },
+    {
+      "connector": "J10.34",
+      "fpga_pin": "H22",
+      "net": "/Interface Sheet/DG8",
+      "connected": true
+    },
+    {
+      "connector": "J10.35",
+      "fpga_pin": "L20",
+      "net": "/Interface Sheet/DF9",
+      "connected": true
+    },
+    {
+      "connector": "J10.36",
+      "fpga_pin": "AB10",
+      "net": "/Interface Sheet/DG9",
+      "connected": true
+    },
+    {
+      "connector": "J10.37",
+      "fpga_pin": "M18",
+      "net": "/Interface Sheet/DF10",
+      "connected": true
+    },
+    {
+      "connector": "J10.38",
+      "fpga_pin": "J22",
+      "net": "/Interface Sheet/DG10",
+      "connected": true
+    },
+    {
+      "connector": "J10.39",
+      "fpga_pin": "M20",
+      "net": "/Interface Sheet/DF11",
+      "connected": true
+    },
+    {
+      "connector": "J10.40",
+      "fpga_pin": "AB15",
+      "net": "/Interface Sheet/DG11",
+      "connected": true
+    },
+    {
+      "connector": "J10.41",
+      "fpga_pin": "M21",
+      "net": "/Interface Sheet/DF12",
+      "connected": true
+    },
+    {
+      "connector": "J10.42",
+      "fpga_pin": "L19",
+      "net": "/Interface Sheet/DG12",
+      "connected": true
+    },
+    {
+      "connector": "J10.43",
+      "fpga_pin": "M22",
+      "net": "/Interface Sheet/DF13",
+      "connected": true
+    },
+    {
+      "connector": "J10.44",
+      "fpga_pin": "V13",
+      "net": "/Interface Sheet/DG13",
+      "connected": true
+    },
+    {
+      "connector": "J10.45",
+      "fpga_pin": "N19",
+      "net": "/Interface Sheet/DF14",
+      "connected": true
+    },
+    {
+      "connector": "J10.46",
+      "fpga_pin": "L22",
+      "net": "/Interface Sheet/DG14",
+      "connected": true
+    },
+    {
+      "connector": "J10.47",
+      "fpga_pin": "N20",
+      "net": "/Interface Sheet/DF15",
+      "connected": true
+    },
+    {
+      "connector": "J10.48",
+      "fpga_pin": "N18",
+      "net": "/Interface Sheet/DG15",
+      "connected": true
+    },
+    {
+      "connector": "J10.49",
+      "fpga_pin": "N21",
+      "net": "/Interface Sheet/DF16",
+      "connected": true
+    },
+    {
+      "connector": "J10.50",
+      "fpga_pin": "AB14",
+      "net": "/Interface Sheet/DG16",
+      "connected": true
+    },
+    {
+      "connector": "J10.51",
+      "fpga_pin": "P20",
+      "net": "/Interface Sheet/DF17",
+      "connected": true
+    },
+    {
+      "connector": "J10.52",
+      "fpga_pin": "N22",
+      "net": "/Interface Sheet/DG17",
+      "connected": true
+    },
+    {
+      "connector": "J10.53",
+      "fpga_pin": "V14",
+      "net": "/Interface Sheet/DF18",
+      "connected": true
+    },
+    {
+      "connector": "J10.54",
+      "fpga_pin": "P18",
+      "net": "/Interface Sheet/DG18",
+      "connected": true
+    },
+    {
+      "connector": "J10.55",
+      "fpga_pin": "P22",
+      "net": "/Interface Sheet/DF19",
+      "connected": true
+    },
+    {
+      "connector": "J10.56",
+      "fpga_pin": "P19",
+      "net": "/Interface Sheet/DG19",
+      "connected": true
+    },
+    {
+      "connector": "J10.57",
+      "fpga_pin": "R22",
+      "net": "/Interface Sheet/DF20",
+      "connected": true
+    },
+    {
+      "connector": "J10.58",
+      "fpga_pin": "P21",
+      "net": "/Interface Sheet/DG20",
+      "connected": true
+    },
+    {
+      "connector": "J10.59",
+      "fpga_pin": "T19",
+      "net": "/Interface Sheet/DF21",
+      "connected": true
+    },
+    {
+      "connector": "J10.60",
+      "fpga_pin": "R18",
+      "net": "/Interface Sheet/DG21",
+      "connected": true
+    },
+    {
+      "connector": "J10.61",
+      "fpga_pin": "T20",
+      "net": "/Interface Sheet/DF22",
+      "connected": true
+    },
+    {
+      "connector": "J10.62",
+      "fpga_pin": "R20",
+      "net": "/Interface Sheet/DG22",
+      "connected": true
+    },
+    {
+      "connector": "J10.63",
+      "fpga_pin": "T21",
+      "net": "/Interface Sheet/DF23",
+      "connected": true
+    },
+    {
+      "connector": "J10.64",
+      "fpga_pin": "T18",
+      "net": "/Interface Sheet/DG23",
+      "connected": true
+    },
+    {
+      "connector": "J10.65",
+      "fpga_pin": "U17",
+      "net": "/Interface Sheet/DF24",
+      "connected": true
+    },
+    {
+      "connector": "J10.66",
+      "fpga_pin": "AB13",
+      "net": "/Interface Sheet/DG24",
+      "connected": true
+    },
+    {
+      "connector": "J10.67",
+      "fpga_pin": "U20",
+      "net": "/Interface Sheet/DC0",
+      "connected": true
+    },
+    {
+      "connector": "J10.68",
+      "fpga_pin": "T22",
+      "net": "/Interface Sheet/DD0",
+      "connected": true
+    },
+    {
+      "connector": "J10.69",
+      "fpga_pin": "U21",
+      "net": "/Interface Sheet/DC1",
+      "connected": true
+    },
+    {
+      "connector": "J10.70",
+      "fpga_pin": "U18",
+      "net": "/Interface Sheet/DD1",
+      "connected": true
+    },
+    {
+      "connector": "J10.71",
+      "fpga_pin": "V16",
+      "net": "/Interface Sheet/DC2",
+      "connected": true
+    },
+    {
+      "connector": "J10.72",
+      "fpga_pin": "U22",
+      "net": "/Interface Sheet/DD2",
+      "connected": true
+    },
+    {
+      "connector": "J10.73",
+      "fpga_pin": "V21",
+      "net": "/Interface Sheet/DC3",
+      "connected": true
+    },
+    {
+      "connector": "J10.74",
+      "fpga_pin": "V20",
+      "net": "/Interface Sheet/DD3",
+      "connected": true
+    },
+    {
+      "connector": "J10.75",
+      "fpga_pin": "W15",
+      "net": "/Interface Sheet/DC4",
+      "connected": true
+    },
+    {
+      "connector": "J10.76",
+      "fpga_pin": "V22",
+      "net": "/Interface Sheet/DD4",
+      "connected": true
+    },
+    {
+      "connector": "J10.77",
+      "fpga_pin": "W18",
+      "net": "/Interface Sheet/DC5",
+      "connected": true
+    },
+    {
+      "connector": "J10.78",
+      "fpga_pin": "W17",
+      "net": "/Interface Sheet/DD5",
+      "connected": true
+    },
+    {
+      "connector": "J10.79",
+      "fpga_pin": "W20",
+      "net": "/Interface Sheet/DC6",
+      "connected": true
+    },
+    {
+      "connector": "J10.80",
+      "fpga_pin": "W19",
+      "net": "/Interface Sheet/DD6",
+      "connected": true
+    },
+    {
+      "connector": "J10.81",
+      "fpga_pin": "Y19",
+      "net": "/Interface Sheet/DC7",
+      "connected": true
+    },
+    {
+      "connector": "J10.82",
+      "fpga_pin": "Y16",
+      "net": "/Interface Sheet/DD7",
+      "connected": true
+    },
+    {
+      "connector": "J10.83",
+      "fpga_pin": "Y21",
+      "net": "/Interface Sheet/DC8",
+      "connected": true
+    },
+    {
+      "connector": "J10.84",
+      "fpga_pin": "Y20",
+      "net": "/Interface Sheet/DD8",
+      "connected": true
+    },
+    {
+      "connector": "J10.85",
+      "fpga_pin": "AA20",
+      "net": "/Interface Sheet/DC9",
+      "connected": true
+    },
+    {
+      "connector": "J10.86",
+      "fpga_pin": "Y1",
+      "net": "/Interface Sheet/DD9",
+      "connected": true
+    },
+    {
+      "connector": "J10.87",
+      "fpga_pin": "AA21",
+      "net": "/Interface Sheet/DC10",
+      "connected": true
+    },
+    {
+      "connector": "J10.88",
+      "fpga_pin": "AA3",
+      "net": "/Interface Sheet/DD10",
+      "connected": true
+    },
+    {
+      "connector": "J10.89",
+      "fpga_pin": "AA22",
+      "net": "/Interface Sheet/DC11",
+      "connected": true
+    },
+    {
+      "connector": "J10.90",
+      "fpga_pin": "AA1",
+      "net": "/Interface Sheet/DD11",
+      "connected": true
+    },
+    {
+      "connector": "J10.91",
+      "fpga_pin": "AA16",
+      "net": "/Interface Sheet/DC12",
+      "connected": true
+    },
+    {
+      "connector": "J10.92",
+      "fpga_pin": "AA5",
+      "net": "/Interface Sheet/DD12",
+      "connected": true
+    },
+    {
+      "connector": "J10.93",
+      "fpga_pin": "AB21",
+      "net": "/Interface Sheet/DC13",
+      "connected": true
+    },
+    {
+      "connector": "J10.94",
+      "fpga_pin": "AA6",
+      "net": "/Interface Sheet/DD13",
+      "connected": true
+    },
+    {
+      "connector": "J10.95",
+      "fpga_pin": "AB18",
+      "net": "/Interface Sheet/DC14",
+      "connected": true
+    },
+    {
+      "connector": "J10.96",
+      "fpga_pin": "AB2",
+      "net": "/Interface Sheet/DD14",
+      "connected": true
+    },
+    {
+      "connector": "J10.97",
+      "fpga_pin": "AB17",
+      "net": "/Interface Sheet/DC15",
+      "connected": true
+    },
+    {
+      "connector": "J10.98",
+      "fpga_pin": "AB4",
+      "net": "/Interface Sheet/DD15",
+      "connected": true
+    },
+    {
+      "connector": "J10.99",
+      "fpga_pin": "AB16",
+      "net": "/Interface Sheet/DC16",
+      "connected": true
+    },
+    {
+      "connector": "J10.100",
+      "fpga_pin": "AB6",
+      "net": "/Interface Sheet/DD16",
+      "connected": true
+    },
+    {
+      "connector": "J7.17",
+      "fpga_pin": "D1",
+      "net": "/Interface Sheet/DB0",
+      "connected": true
+    },
+    {
+      "connector": "J7.18",
+      "fpga_pin": "C4",
+      "net": "/Interface Sheet/DA0",
+      "connected": true
+    },
+    {
+      "connector": "J7.19",
+      "fpga_pin": "A11",
+      "net": "/Interface Sheet/DB1",
+      "connected": true
+    },
+    {
+      "connector": "J7.20",
+      "fpga_pin": "C7",
+      "net": "/Interface Sheet/DA1",
+      "connected": true
+    },
+    {
+      "connector": "J7.21",
+      "fpga_pin": "E1",
+      "net": "/Interface Sheet/DB2",
+      "connected": true
+    },
+    {
+      "connector": "J7.22",
+      "fpga_pin": "A6",
+      "net": "/Interface Sheet/DA2",
+      "connected": true
+    },
+    {
+      "connector": "J7.23",
+      "fpga_pin": "B11",
+      "net": "/Interface Sheet/DB3",
+      "connected": true
+    },
+    {
+      "connector": "J7.24",
+      "fpga_pin": "F1",
+      "net": "/Interface Sheet/DA3",
+      "connected": true
+    },
+    {
+      "connector": "J7.25",
+      "fpga_pin": "F2",
+      "net": "/Interface Sheet/DB4",
+      "connected": true
+    },
+    {
+      "connector": "J7.26",
+      "fpga_pin": "A5",
+      "net": "/Interface Sheet/DA4",
+      "connected": true
+    },
+    {
+      "connector": "J7.27",
+      "fpga_pin": "A10",
+      "net": "/Interface Sheet/DB5",
+      "connected": true
+    },
+    {
+      "connector": "J7.28",
+      "fpga_pin": "F3",
+      "net": "/Interface Sheet/DA5",
+      "connected": true
+    },
+    {
+      "connector": "J7.29",
+      "fpga_pin": "H4",
+      "net": "/Interface Sheet/DB6",
+      "connected": true
+    },
+    {
+      "connector": "J7.30",
+      "fpga_pin": "J1",
+      "net": "/Interface Sheet/DA6",
+      "connected": true
+    },
+    {
+      "connector": "J7.31",
+      "fpga_pin": "B10",
+      "net": "/Interface Sheet/DB7",
+      "connected": true
+    },
+    {
+      "connector": "J7.32",
+      "fpga_pin": "A4",
+      "net": "/Interface Sheet/DA7",
+      "connected": true
+    },
+    {
+      "connector": "J7.33",
+      "fpga_pin": "J4",
+      "net": "/Interface Sheet/DB8",
+      "connected": true
+    },
+    {
+      "connector": "J7.34",
+      "fpga_pin": "J3",
+      "net": "/Interface Sheet/DA8",
+      "connected": true
+    },
+    {
+      "connector": "J7.35",
+      "fpga_pin": "C10",
+      "net": "/Interface Sheet/DB9",
+      "connected": true
+    },
+    {
+      "connector": "J7.36",
+      "fpga_pin": "K1",
+      "net": "/Interface Sheet/DA9",
+      "connected": true
+    },
+    {
+      "connector": "J7.37",
+      "fpga_pin": "A9",
+      "net": "/Interface Sheet/DB10",
+      "connected": true
+    },
+    {
+      "connector": "J7.38",
+      "fpga_pin": "K2",
+      "net": "/Interface Sheet/DA10",
+      "connected": true
+    },
+    {
+      "connector": "J7.39",
+      "fpga_pin": "E10",
+      "net": "/Interface Sheet/DB11",
+      "connected": true
+    },
+    {
+      "connector": "J7.40",
+      "fpga_pin": "A3",
+      "net": "/Interface Sheet/DA11",
+      "connected": true
+    },
+    {
+      "connector": "J7.41",
+      "fpga_pin": "C9",
+      "net": "/Interface Sheet/DB12",
+      "connected": true
+    },
+    {
+      "connector": "J7.42",
+      "fpga_pin": "F5",
+      "net": "/Interface Sheet/DA12",
+      "connected": true
+    },
+    {
+      "connector": "J7.43",
+      "fpga_pin": "B8",
+      "net": "/Interface Sheet/DB13",
+      "connected": true
+    },
+    {
+      "connector": "J7.44",
+      "fpga_pin": "L1",
+      "net": "/Interface Sheet/DA13",
+      "connected": true
+    },
+    {
+      "connector": "J7.45",
+      "fpga_pin": "E9",
+      "net": "/Interface Sheet/DB14",
+      "connected": true
+    },
+    {
+      "connector": "J7.46",
+      "fpga_pin": "L2",
+      "net": "/Interface Sheet/DA14",
+      "connected": true
+    },
+    {
+      "connector": "J7.47",
+      "fpga_pin": "C8",
+      "net": "/Interface Sheet/DB15",
+      "connected": true
+    },
+    {
+      "connector": "J7.48",
+      "fpga_pin": "C3",
+      "net": "/Interface Sheet/DA15",
+      "connected": true
+    },
+    {
+      "connector": "J7.49",
+      "fpga_pin": "K5",
+      "net": "/Interface Sheet/DB16",
+      "connected": true
+    },
+    {
+      "connector": "J7.50",
+      "fpga_pin": "A2",
+      "net": "/Interface Sheet/DA16",
+      "connected": true
+    },
+    {
+      "connector": "J7.51",
+      "fpga_pin": "B7",
+      "net": "/Interface Sheet/DB17",
+      "connected": true
+    },
+    {
+      "connector": "J7.52",
+      "fpga_pin": "B2",
+      "net": "/Interface Sheet/DA17",
+      "connected": true
+    },
+    {
+      "connector": "J7.53",
+      "fpga_pin": "D10",
+      "net": "/Interface Sheet/DB18",
+      "connected": true
+    },
+    {
+      "connector": "J7.54",
+      "fpga_pin": "D3",
+      "net": "/Interface Sheet/DA18",
+      "connected": true
+    },
+    {
+      "connector": "J7.55",
+      "fpga_pin": "D9",
+      "net": "/Interface Sheet/DB19",
+      "connected": true
+    },
+    {
+      "connector": "J7.56",
+      "fpga_pin": "K6",
+      "net": "/Interface Sheet/DA19",
+      "connected": true
+    },
+    {
+      "connector": "J7.57",
+      "fpga_pin": "D7",
+      "net": "/Interface Sheet/DB20",
+      "connected": true
+    },
+    {
+      "connector": "J7.58",
+      "fpga_pin": "C2",
+      "net": "/Interface Sheet/DA20",
+      "connected": true
+    },
+    {
+      "connector": "J7.59",
+      "fpga_pin": "C6",
+      "net": "/Interface Sheet/DB21",
+      "connected": true
+    },
+    {
+      "connector": "J7.60",
+      "fpga_pin": "E3",
+      "net": "/Interface Sheet/DA21",
+      "connected": true
+    },
+    {
+      "connector": "J7.61",
+      "fpga_pin": "D6",
+      "net": "/Interface Sheet/DB22",
+      "connected": true
+    },
+    {
+      "connector": "J7.62",
+      "fpga_pin": "B1",
+      "net": "/Interface Sheet/DA22",
+      "connected": true
+    },
+    {
+      "connector": "J7.63",
+      "fpga_pin": "B5",
+      "net": "/Interface Sheet/DB23",
+      "connected": true
+    },
+    {
+      "connector": "J7.64",
+      "fpga_pin": "D2",
+      "net": "/Interface Sheet/DA23",
+      "connected": true
+    },
+    {
+      "connector": "J7.65",
+      "fpga_pin": "E6",
+      "net": "/Interface Sheet/DB24",
+      "connected": true
+    },
+    {
+      "connector": "J7.66",
+      "fpga_pin": "C1",
+      "net": "/Interface Sheet/DA24",
+      "connected": true
+    },
+    {
+      "connector": "J7.75",
+      "fpga_pin": "M9",
+      "net": "/Interface Sheet/ACC_12MHZ",
+      "connected": true
+    },
+    {
+      "connector": "J7.77",
+      "fpga_pin": "A7",
+      "net": "/STM32H7 Sheet/PA0",
+      "connected": true
+    },
+    {
+      "connector": "J7.79",
+      "fpga_pin": "A8",
+      "net": "/Interface Sheet/ACC_TRIG",
+      "connected": true
+    },
+    {
+      "connector": "J9.18",
+      "fpga_pin": "G4",
+      "net": "/Interface Sheet/DJ0",
+      "connected": true
+    },
+    {
+      "connector": "J9.20",
+      "fpga_pin": "G3",
+      "net": "/Interface Sheet/DJ1",
+      "connected": true
+    },
+    {
+      "connector": "J9.22",
+      "fpga_pin": "AA10",
+      "net": "/Interface Sheet/DJ2",
+      "connected": true
+    },
+    {
+      "connector": "J9.24",
+      "fpga_pin": "H3",
+      "net": "/Interface Sheet/DJ3",
+      "connected": true
+    },
+    {
+      "connector": "J9.26",
+      "fpga_pin": "G1",
+      "net": "/Interface Sheet/DJ4",
+      "connected": true
+    },
+    {
+      "connector": "J9.28",
+      "fpga_pin": "M3",
+      "net": "/Interface Sheet/DJ5",
+      "connected": true
+    },
+    {
+      "connector": "J9.30",
+      "fpga_pin": "H1",
+      "net": "/Interface Sheet/DJ6",
+      "connected": true
+    },
+    {
+      "connector": "J9.32",
+      "fpga_pin": "L8",
+      "net": "/Interface Sheet/DJ7",
+      "connected": true
+    },
+    {
+      "connector": "J9.34",
+      "fpga_pin": "N3",
+      "net": "/Interface Sheet/DJ8",
+      "connected": true
+    },
+    {
+      "connector": "J9.36",
+      "fpga_pin": "N1",
+      "net": "/Interface Sheet/DJ9",
+      "connected": true
+    },
+    {
+      "connector": "J9.38",
+      "fpga_pin": "W9",
+      "net": "/Interface Sheet/DJ10",
+      "connected": true
+    },
+    {
+      "connector": "J9.40",
+      "fpga_pin": "N8",
+      "net": "/Interface Sheet/DJ11",
+      "connected": true
+    },
+    {
+      "connector": "J9.42",
+      "fpga_pin": "AB9",
+      "net": "/Interface Sheet/DJ12",
+      "connected": true
+    },
+    {
+      "connector": "J9.44",
+      "fpga_pin": "AB11",
+      "net": "/Interface Sheet/DJ13",
+      "connected": true
+    },
+    {
+      "connector": "J9.46",
+      "fpga_pin": "M1",
+      "net": "/Interface Sheet/DJ14",
+      "connected": true
+    },
+    {
+      "connector": "J9.48",
+      "fpga_pin": "AB12",
+      "net": "/Interface Sheet/DJ15",
+      "connected": true
+    },
+    {
+      "connector": "J9.50",
+      "fpga_pin": "W8",
+      "net": "/Interface Sheet/DJ16",
+      "connected": true
+    },
+    {
+      "connector": "J9.52",
+      "fpga_pin": "V11",
+      "net": "/Interface Sheet/DJ17",
+      "connected": true
+    },
+    {
+      "connector": "J9.54",
+      "fpga_pin": "P1",
+      "net": "/Interface Sheet/DJ18",
+      "connected": true
+    },
+    {
+      "connector": "J9.56",
+      "fpga_pin": "K14",
+      "net": "/Interface Sheet/DJ19",
+      "connected": true
+    },
+    {
+      "connector": "J9.58",
+      "fpga_pin": "R2",
+      "net": "/Interface Sheet/DJ20",
+      "connected": true
+    },
+    {
+      "connector": "J9.60",
+      "fpga_pin": "R1",
+      "net": "/Interface Sheet/DJ21",
+      "connected": true
+    },
+    {
+      "connector": "J9.62",
+      "fpga_pin": "AA15",
+      "net": "/Interface Sheet/DJ22",
+      "connected": true
+    },
+    {
+      "connector": "J9.64",
+      "fpga_pin": "T2",
+      "net": "/Interface Sheet/DJ23",
+      "connected": true
+    },
+    {
+      "connector": "J9.66",
+      "fpga_pin": "AA14",
+      "net": "/Interface Sheet/DJ24",
+      "connected": true
+    },
+    {
+      "connector": "J9.67",
+      "fpga_pin": "T1",
+      "net": "/Interface Sheet/DE0",
+      "connected": true
+    },
+    {
+      "connector": "J9.68",
+      "fpga_pin": "U2",
+      "net": "/Interface Sheet/DC17",
+      "connected": true
+    },
+    {
+      "connector": "J9.69",
+      "fpga_pin": "Y8",
+      "net": "/Interface Sheet/DE1",
+      "connected": true
+    },
+    {
+      "connector": "J9.70",
+      "fpga_pin": "U1",
+      "net": "/Interface Sheet/DC18",
+      "connected": true
+    },
+    {
+      "connector": "J9.71",
+      "fpga_pin": "V8",
+      "net": "/Interface Sheet/DE2",
+      "connected": true
+    },
+    {
+      "connector": "J9.72",
+      "fpga_pin": "AA8",
+      "net": "/Interface Sheet/DC19",
+      "connected": true
+    },
+    {
+      "connector": "J9.73",
+      "fpga_pin": "V5",
+      "net": "/Interface Sheet/DE3",
+      "connected": true
+    },
+    {
+      "connector": "J9.74",
+      "fpga_pin": "V4",
+      "net": "/Interface Sheet/DD17",
+      "connected": true
+    },
+    {
+      "connector": "J9.75",
+      "fpga_pin": "V1",
+      "net": "/Interface Sheet/DE4",
+      "connected": true
+    },
+    {
+      "connector": "J9.76",
+      "fpga_pin": "W7",
+      "net": "/Interface Sheet/DD18",
+      "connected": true
+    },
+    {
+      "connector": "J9.77",
+      "fpga_pin": "W6",
+      "net": "/Interface Sheet/DE5",
+      "connected": true
+    },
+    {
+      "connector": "J9.78",
+      "fpga_pin": "V9",
+      "net": "/Interface Sheet/DD19",
+      "connected": true
+    },
+    {
+      "connector": "J9.79",
+      "fpga_pin": "W4",
+      "net": "/Interface Sheet/DE6",
+      "connected": true
+    },
+    {
+      "connector": "J9.80",
+      "fpga_pin": "W3",
+      "net": "/Interface Sheet/DE17",
+      "connected": true
+    },
+    {
+      "connector": "J9.81",
+      "fpga_pin": "Y7",
+      "net": "/Interface Sheet/DE7",
+      "connected": true
+    },
+    {
+      "connector": "J9.82",
+      "fpga_pin": "R9",
+      "net": "/Interface Sheet/DE18",
+      "connected": true
+    },
+    {
+      "connector": "J9.83",
+      "fpga_pin": "Y5",
+      "net": "/Interface Sheet/DE8",
+      "connected": true
+    },
+    {
+      "connector": "J9.84",
+      "fpga_pin": "Y3",
+      "net": "/Interface Sheet/DE19",
+      "connected": true
+    },
+    {
+      "connector": "J9.85",
+      "fpga_pin": "Y2",
+      "net": "/Interface Sheet/DE9",
+      "connected": true
+    },
+    {
+      "connector": "J9.87",
+      "fpga_pin": "Y4",
+      "net": "/Interface Sheet/DE10",
+      "connected": true
+    },
+    {
+      "connector": "J9.89",
+      "fpga_pin": "AA2",
+      "net": "/Interface Sheet/DE11",
+      "connected": true
+    },
+    {
+      "connector": "J9.91",
+      "fpga_pin": "AA7",
+      "net": "/Interface Sheet/DE12",
+      "connected": true
+    },
+    {
+      "connector": "J9.93",
+      "fpga_pin": "AB3",
+      "net": "/Interface Sheet/DE13",
+      "connected": true
+    },
+    {
+      "connector": "J9.95",
+      "fpga_pin": "AB5",
+      "net": "/Interface Sheet/DE14",
+      "connected": true
+    },
+    {
+      "connector": "J9.97",
+      "fpga_pin": "AB7",
+      "net": "/Interface Sheet/DE15",
+      "connected": true
+    },
+    {
+      "connector": "J9.99",
+      "fpga_pin": "AB8",
+      "net": "/Interface Sheet/DE16",
+      "connected": true
+    }
+  ],
+  "connected_nets": 469,
+  "total_nets": 469,
+  "fpga_links": 212
+}

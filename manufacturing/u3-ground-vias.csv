@@ -1,0 +1,5 @@
+Reference,Pad,X_mm,CAD_Y_mm,Gerber_Y_mm,Finished_hole_mm,Land_mm,Treatment
+U3,25,148.9,71.39999999999999,-71.39999999999999,0.2,0.45,Solder-mask tent both sides; NO resin fill or copper cap
+U3,25,148.9,72.8,-72.8,0.2,0.45,Solder-mask tent both sides; NO resin fill or copper cap
+U3,25,149.6,72.1,-72.1,0.2,0.45,Solder-mask tent both sides; NO resin fill or copper cap
+U3,25,148.20000000000002,72.1,-72.1,0.2,0.45,Solder-mask tent both sides; NO resin fill or copper cap

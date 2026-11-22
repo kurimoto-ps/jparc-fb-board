@@ -1,0 +1,146 @@
+(footprint "L_Murata_DFE201210U"
+		(layer "F.Cu")
+		
+		
+		(descr "Murata DFE201210U, 2.0x1.2mm, recommended 0.8x1.4mm pads / 0.8mm gap; Murata J(E)TE243A-0029D-01 p.5. Keep surface copper and vias outside non-electrode body area.")
+		(tags "inductor")
+		(property "Reference" "REF**"
+			(at 0 -1.6 0)
+			(layer "F.SilkS")
+			(uuid "3765cf0c-fd0d-4e62-8b2c-958ca6467c5e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)(property "Value" "DFE201210U-2R2M=P2"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "a9b6d3f4-ade7-49e1-8d23-7a94aa869129")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/J%28E%29TE243A-0029_PDF_INDUCTOR?lastModifiedDatetime=20250708072025"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20458936-b814-4329-998a-177db3cc866e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Murata DFE201210U, 2.0x1.2mm, recommended 0.8x1.4mm pads / 0.8mm gap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f4aac9-dd36-4368-a7f8-da85d0d85173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		
+		
+		
+		
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		
+		
+		(fp_line
+			(start 1.75 0.85)
+			(end -1.75 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca102607-e847-41a1-abb0-801083e612af")
+		)
+		(fp_line
+			(start 1.75 -0.85)
+			(end 1.75 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78ef6a8c-d5fa-40ba-94a7-f54111c52a92")
+		)
+		(fp_line
+			(start -1.75 0.85)
+			(end -1.75 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5349b2a5-7f21-405d-ace2-fae7705b6ca4")
+		)
+		(fp_line
+			(start -1.75 -0.85)
+			(end 1.75 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65859177-93ca-4ad2-a78f-43b84b8c09a4")
+		)
+		
+		
+		
+		
+		
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4fab87ec-f082-4474-a8e2-a25d45955396")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.8 0)
+			(size 0.8 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.0625)
+			
+			
+			
+			(uuid "cd12c6de-5308-4a10-b75e-3813ef97e433")
+		)
+		(pad "2" smd roundrect
+			(at 0.8 0)
+			(size 0.8 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.0625)
+			
+			
+			
+			(uuid "8260a883-364f-4818-8475-5b8c5116011c")
+		)
+		(embedded_fonts no)
+		
+	
+(fp_line (start -1 -0.6) (end 1 -0.6) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "e74206b6-f3fc-49c1-872c-5c08d642f937"))
+(fp_line (start 1 -0.6) (end 1 0.6) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "963dc6a4-90ca-40dd-8e1f-b7b73596591e"))
+(fp_line (start 1 0.6) (end -1 0.6) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "d38e3029-e444-4c7c-bc05-fe021a25e5fa"))
+(fp_line (start -1 0.6) (end -1 -0.6) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "3e16e2fe-cb42-4f28-8a3f-21c27746684d"))
+(fp_line (start -.25 -0.82) (end .25 -0.82) (stroke (width .12) (type solid)) (layer "F.SilkS") (uuid "2c1735c6-6bea-40b5-b014-4d368eeb8968"))
+(fp_line (start -.25 0.82) (end .25 0.82) (stroke (width .12) (type solid)) (layer "F.SilkS") (uuid "3aafb5b4-871b-48a4-99f0-e5340cb95ff1"))
+)

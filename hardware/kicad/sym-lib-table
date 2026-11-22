@@ -1,0 +1,7 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "JPARC_MAX10")(type "KiCad")(uri "${KIPRJMOD}/JPARC_MAX10.kicad_sym")(options "")(descr "Board-specific MAX10 physical pin map"))
+ (lib (name "JPARC_Power")(type "KiCad")(uri "${KIPRJMOD}/JPARC_Power.kicad_sym")(options "")(descr "MPM3833C manufacturer land mapping; SW common-pin aliases"))
+
+(lib (name "JPARC_Connectors") (type "KiCad") (uri "${KIPRJMOD}/JPARC_Connectors.kicad_sym") (options "") (descr "J1 contact assignment for this board"))
+)

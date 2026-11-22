@@ -1,0 +1,10 @@
+# KiCad workstation state and autosaves
+*.kicad_prl
+*.kicad_wks-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.lck
+fp-info-cache
+*-backups/
+_autosave-*
+~*.tmp

@@ -1,0 +1,93 @@
+{
+  "gerbers": [
+    {
+      "name": "JPARC_PS_FB_BOARD-B_Cu.gbr",
+      "objects": 4760
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-B_Mask.gbr",
+      "objects": 671
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-B_Silkscreen.gbr",
+      "objects": 5122
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-Edge_Cuts.gbr",
+      "objects": 4
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-F_Cu.gbr",
+      "objects": 5821
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-F_Mask.gbr",
+      "objects": 1297
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-F_Silkscreen.gbr",
+      "objects": 8484
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-In1_Cu.gbr",
+      "objects": 1799
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-In2_Cu.gbr",
+      "objects": 3586
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-In3_Cu.gbr",
+      "objects": 1801
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-In4_Cu.gbr",
+      "objects": 3783
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-In5_Cu.gbr",
+      "objects": 2041
+    },
+    {
+      "name": "JPARC_PS_FB_BOARD-In6_Cu.gbr",
+      "objects": 1801
+    }
+  ],
+  "drills": {
+    "JPARC_PS_FB_BOARD-PTH.drl": 1798,
+    "JPARC_PS_FB_BOARD-NPTH.drl": 10
+  },
+  "u3_holes": [
+    {
+      "x_mm": 148.9,
+      "gerber_y_mm": -71.39999999999999,
+      "top_mask_margin_from_hole_mm": 0.14999999999999147,
+      "top_paste_margin_from_hole_mm": 0.19999999999998863
+    },
+    {
+      "x_mm": 148.9,
+      "gerber_y_mm": -72.8,
+      "top_mask_margin_from_hole_mm": 0.15000000000000568,
+      "top_paste_margin_from_hole_mm": 0.19999999999998863
+    },
+    {
+      "x_mm": 149.6,
+      "gerber_y_mm": -72.1,
+      "top_mask_margin_from_hole_mm": 0.15000000000000568,
+      "top_paste_margin_from_hole_mm": 0.20000000000000284
+    },
+    {
+      "x_mm": 148.20000000000002,
+      "gerber_y_mm": -72.1,
+      "top_mask_margin_from_hole_mm": 0.14999999999997726,
+      "top_paste_margin_from_hole_mm": 0.20000000000000284
+    }
+  ],
+  "mask_island_width_mm": 0.5,
+  "paste_coverage_percent": 50.988904361507295,
+  "paste_windows": 4,
+  "via_paste_overlap": 0,
+  "via_mask_opening_overlap": 0,
+  "all_four_vias_solidly_connected_to_three_GND_planes": true,
+  "schematic_pin_nets_unchanged": true
+}

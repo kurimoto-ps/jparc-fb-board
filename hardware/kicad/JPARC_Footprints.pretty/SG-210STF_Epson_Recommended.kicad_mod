@@ -1,0 +1,174 @@
+(footprint "SG-210STF_Epson_Recommended"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "SG-210STF 50.0000ML0 ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aeae5a07-7ae3-4d9e-bd9a-ad3fff1cf6da")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SG-210STF 50.0000ML0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8682988b-cbf2-4e47-ad0d-9b9a38b1f048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "SG-210STF 50.0000ML0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ca87807-c663-4edc-a934-82d784b13c79")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7756e5d6-a2eb-4b24-b915-2780410148be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "SG-210STF 50.0000ML0_EPS SG-210STF 50.0000ML0_EPS-M SG-210STF 50.0000ML0_EPS-L")
+	(sheetname "/MAX10 Sheet/")
+	(sheetfile "max10.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.8 0.65)
+		(end -1.725 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8bc9ad38-4992-5f97-a88b-32f64855dbd5")
+	)
+	(fp_line
+		(start -1.65 -1.35)
+		(end 1.65 -1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a599b4a1-9bc0-59f5-8b36-18509f2a8474")
+	)
+	(fp_line
+		(start -1.65 1.35)
+		(end -1.65 -1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6bb4ae8-2101-5042-bd4f-c1920e2f6420")
+	)
+	(fp_line
+		(start 1.65 -1.35)
+		(end 1.65 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6f3b8ef-c521-542d-bc2a-c69de5b07a35")
+	)
+	(fp_line
+		(start 1.65 1.35)
+		(end -1.65 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "60ece41d-d336-5949-8b4b-ecd1be3b7619")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0875be15-4ee2-5d7a-8138-3ddfd4fc7472")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "505d7a03-8a61-59e2-9c85-92d0f8174dbe")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a8d6970e-bd0f-58ef-9f06-dfcf6affe10f")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6aade356-376d-5ed6-8840-1ab6128d5730")
+	)
+	(pad "1" smd rect
+		(at -0.85 0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6eb41c28-c4aa-401d-84f0-5c84f9ba9919")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c03d0c8-ba4e-47c1-8bcd-98f93071cf44")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00ae3275-c90f-4657-af90-42af4bf11d12")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.65)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82199aae-c6b9-4593-a9bd-ac831dc65d65")
+	)
+	(embedded_fonts no)
+)

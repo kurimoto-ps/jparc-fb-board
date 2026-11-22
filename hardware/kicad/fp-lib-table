@@ -1,0 +1,2 @@
+(fp_lib_table (version 7)
+ (lib (name "JPARC_Footprints") (type "KiCad") (uri "${KIPRJMOD}/JPARC_Footprints.pretty") (options "") (descr "Verified project footprints")))
