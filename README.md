@@ -4,7 +4,9 @@ J-PARC メインリング（MR）の主電磁石電源で、電流パタンに�
 
 既設の光受信、D/A 出力、PLC、変換器盤への Duty 指令は母基板のコネクタを通ります。新たに Ethernet と SDRAM を子基板に持たせ、これまで独立したパタンメモリ基板が担っていた電流指令の受信・保持を取り込むことが設計の狙いです。
 
-試作機では ACM-205 を本子基板に交換し、STM32 の起動、SDRAM、Ethernet、FPGA との通信、実 ADC 入力 8 ch と対応する DAC 出力の波形まで確認しました。現行基板では J4 の書き込みケーブルと J5 の RJ45 ジャックに個別の対処を行っています。[実機試験の結果](verification/bench-tests.md) · [既知不具合 3 件と次回改版](docs/errata.md)
+光 ADC の混在構成では、MAX 10 が **24 bit × 3 系統**と **16 bit × 8 ch（ADS8568）**を受信します。ACM-205 を置き換えた試作機では、STM32 の起動、SDRAM、Ethernet、FPGA との通信に加え、16 bit 側の全 8 ch のノコギリ波と、24 bit 側の DCCT P/N の一定入力を、それぞれ対応する DAC 出力で確認しました。[ADC の信号経路](docs/interfaces.md) · [実機試験の結果](verification/bench-tests.md)
+
+現行基板では J4 の書き込みケーブルと J5 の RJ45 ジャックに個別の対処を行っています。[既知不具合 3 件と次回改版](docs/errata.md)
 
 ```mermaid
 flowchart TD
@@ -18,6 +20,7 @@ flowchart TD
     Mother -->|受信データ・外部同期| FPGA
     FPGA -->|DAC制御・Duty指令など| Mother
     OE["6ch O/E基板"] -->|帰還信号| Mother
+    Mother -->|ADS8568 のクロック・変換制御| EO["E/O基板 TEP526A"]
     Mother --> DAC["16ch D/A基板"]
     Mother --> Power["変換器盤への指令"]
 ```

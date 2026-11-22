@@ -14,7 +14,7 @@
 
 | バス | 基板上の配線 | 想定しているデータ方向 |
 | --- | --- | --- |
-| SPI1 | NSS、SCLK、MOSI | MAX 10 → STM32。STM32 がスレーブ受信する想定 |
+| SPI1 | NSS、SCLK、MOSI | MAX 10 → STM32。混在 ADC 構成では STM32 がスレーブとして 24 bit × 3 系統と 16 bit × 8 ch を含む 48 バイトフレームを受信する。[光 ADC と SPI1 の接続](interfaces.md) |
 | SPI2、SPI3 | NSS、SCLK、MOSI | STM32 → MAX 10 |
 | SPI4 | NSS、SCLK、MOSI、MISO | 双方向 |
 
