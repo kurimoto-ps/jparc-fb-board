@@ -4,6 +4,8 @@ J-PARC メインリング（MR）の主電磁石電源で、電流パタンに�
 
 既設の光受信、D/A 出力、PLC、変換器盤への Duty 指令は母基板のコネクタを通ります。新たに Ethernet と SDRAM を子基板に持たせ、これまで独立したパタンメモリ基板が担っていた電流指令の受信・保持を取り込むことが設計の狙いです。
 
+試作機では ACM-205 を本子基板に交換し、STM32 の起動、SDRAM、Ethernet、FPGA との通信、実 ADC 入力 8 ch と対応する DAC 出力の波形まで確認しました。現行基板では J4 の書き込みケーブルと J5 の RJ45 ジャックに個別の対処を行っています。[実機試験の結果](verification/bench-tests.md) · [既知不具合 3 件と次回改版](docs/errata.md)
+
 ```mermaid
 flowchart TD
     Host["パタン作成システム"] -->|Ethernet| MCU

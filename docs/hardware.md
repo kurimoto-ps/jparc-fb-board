@@ -28,7 +28,7 @@ SPI 約 20 MHz、SDRAM の SDCLK 約 100 MHz は技術説明書の設計目標�
 | --- | --- |
 | J1 | STM32 HRTIM の出力 D1/D2・E1/E2 とフォルト入力 FLT5 |
 | J3 | STM32 内蔵 ADC3 のアナログ入力 2 本（PC2_C、PC3_C）。母基板の光受信 6 系統は J10 を使用する。 |
-| J4 / J6 | それぞれ STM32 の SWD、MAX 10 の JTAG |
+| J4 / J6 | それぞれ STM32 の SWD、MAX 10 の JTAG。J4 は試作時に加工ケーブルで書き込んだ。[J4 の 1 番端子と基板パッドの対応](errata.md) |
 
 ## KiCad で開く
 
