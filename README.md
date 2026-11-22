@@ -30,7 +30,7 @@ flowchart TD
 | プロセッサの役割、電源、メモリ、クロック | [ハードウェア構成](docs/hardware.md) |
 | 母基板との対応、ADC/DAC の接点と FPGA ボール | [外部インターフェース](docs/interfaces.md) |
 | ランド単位のネット名、部品座標 | [ピン・ネット対応 CSV](hardware/tables/pin-net-mapping.csv) · [部品配置 CSV](hardware/tables/component-locations.csv) |
-| 8層基板の製造条件・実装用ペースト | [製造・実装資料](manufacturing/README.md) |
+| 基板製造・部品実装に実際に渡したデータ | [PCBWay の裸基板 Gerber・ドリル、P板.com の実装指示書・部品表・マウントデータ・ステンシル](manufacturing/README.md) |
 | 接続・DRC の検査結果と原本の識別 | [設計検証記録](verification/README.md) |
 
 このリポジトリの対象は子基板のハードウェアです。MCU の制御ソフトウェア、MAX 10 の動作用 HDL、閉ループでの追従性能・遅延・ジッタの実測値は収録していません。図は設計上の信号経路を示します。

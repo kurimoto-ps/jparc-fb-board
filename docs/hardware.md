@@ -5,7 +5,7 @@
 | 回路 | 実装上の要点 |
 | --- | --- |
 | U1　STM32H745XIH6 | Cortex-M7/M4。内蔵 MAC から RMII で PHY へ接続し、FMC でパタン用 SDRAM をアクセスする。 |
-| U2　SDRAM | CAD の型番は IS42S32400D-6BL。技術説明書の購入・実装予定品は IS42S32400J-6BL。128 Mbit（4M × 32）の下位 16 本を使うので、アクセス可能容量は **8 MiB**。FMC Bank 2、通常の先頭アドレスは `0xD0000000`。 |
+| U2　SDRAM | CAD の型番は IS42S32400D-6BL。実装メーカーに指定した支給品は **IS42S32400J-6BL**。128 Mbit（4M × 32）の下位 16 本を使うので、アクセス可能容量は **8 MiB**。FMC Bank 2、通常の先頭アドレスは `0xD0000000`。[実装資料](../manufacturing/README.md) |
 | U3　LAN8742A-CZ-TR / J5　RJ45 | パタン転送用 Ethernet。PHY は 25 MHz 水晶を使用し、RMII には 50 MHz の基準クロックを供給する。 |
 | U5　10M16DCF484I7G | MAX 10。外部 ADC インターフェース、D/A 基板、Duty 指令バスなどを母基板へ接続する。ローカル基準クロックは U13 の 50 MHz。 |
 | 基板電源 | 母基板から +3.3 V を受電。U4（MPM3833）で FPGA コア系の 1.2 V、U7（AP2112K）でアナログ PLL 系の 2.5 V を生成する。STM32 は Direct SMPS 構成。 |
