@@ -19,16 +19,16 @@
 
 ADC24-1～3 は、それぞれ DRDY、DATA、SCLK の 3 本が FPGA への入力。MAX 10 は系統ごとに DRDY の立ち上がりを検出し、SCLK の立ち下がりごとに MSB から 24 bit を受信する。旧 ACM-205 の配線では同じ形式を最大 6 系統分収容できる。下表の 4～6 行はその旧割り当てで、混在構成で使う 24 bit 受信器は 1～3 のみである。
 
-各セルは **子 J10 の接点 / U5 のボール**。コネクタ用途表・旧 HDL 引継ぎ資料の信号順と、[現基板の接続記録](../verification/native_audit.json)から対応付けた。
+各セルは信号が通る順に **TEP523A の光受信素子 / 子 J10 の接点 / U5（MAX 10）のボール**を示す。TEP523A の回路図で各系統の出力ラベルは、FS/DRDY が `CHn-1`、DATA/DOUT が `CHn-2`、SCLK が `CHn-3`（`n` は系統番号）。例えば ADC24-1 のデータは IC2 の CH1-2 出力から OE1・O/E 基板 CN1-b1 を経て、子 J10-20、U5-F18 に届く。[TEP523A 回路図](https://github.com/kurimoto-ps/digital_power_control/blob/2a581d19a357db6020fd6056bd86994f189acb45/targets/jparc_rev58/docs/hardware/circuit/6chO_E基板_TEP523A回路図.pdf) · [24 bit 3 系統の光受信素子・接点対応](https://github.com/kurimoto-ps/digital_power_control/blob/2a581d19a357db6020fd6056bd86994f189acb45/targets/jparc_rev58/docs/hardware/rev58_adc_dac/daughter_adc_mapping.json) · [現基板の接続記録](../verification/native_audit.json)
 
-| 系統 | SCLK | FS/DRDY | DATA |
+| 系統 | FS/DRDY（CHn-1） | DATA/DOUT（CHn-2） | SCLK（CHn-3） |
 | --- | --- | --- | --- |
-| ADC24-1 | 22 / E21 | 18 / E19 | 20 / F18 |
-| ADC24-2 | 30 / F22 | 26 / G17 | 28 / F21 |
-| ADC24-3 | 38 / J22 | 34 / H22 | 36 / AB10 |
-| 旧 ADC4 | 46 / L22 | 42 / L19 | 44 / V13（混在時は ADDATA16） |
-| 旧 ADC5 | 54 / P18 | 50 / AB14 | 52 / N22 |
-| 旧 ADC6 | 62 / R20 | 58 / P21 | 60 / R18 |
+| ADC24-1 | IC1 / 18 / E19 | IC2 / 20 / F18 | IC3 / 22 / E21 |
+| ADC24-2 | IC4 / 26 / G17 | IC5 / 28 / F21 | IC6 / 30 / F22 |
+| ADC24-3 | IC7 / 34 / H22 | IC8 / 36 / AB10 | IC9 / 38 / J22 |
+| 旧 ADC4 | IC10 / 42 / L19 | IC11 / 44 / V13（混在時は ADDATA16） | IC12 / 46 / L22 |
+| 旧 ADC5 | IC13 / 50 / AB14 | IC14 / 52 / N22 | IC15 / 54 / P18 |
+| 旧 ADC6 | IC16 / 58 / P21 | IC17 / 60 / R18 | IC18 / 62 / R20 |
 
 ### 16 bit　ADS8568 の同時変換 8 ch をシリアル受信
 
