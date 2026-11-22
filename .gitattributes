@@ -1,0 +1,10 @@
+* text=auto
+*.md text eol=lf
+# Preserve imported hardware, manufacturing data and verification records byte-for-byte.
+hardware/** -text
+manufacturing/** -text
+verification/** -text
+*.pdf binary
+*.png binary
+manufacturing/README.md text eol=lf
+verification/README.md text eol=lf
